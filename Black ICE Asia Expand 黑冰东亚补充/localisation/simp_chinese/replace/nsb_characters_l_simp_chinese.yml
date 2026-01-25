@@ -58,8 +58,7 @@
  CHI_xiong_shihui:0 "熊式辉"
  CHI_li_yutang:0 "李玉堂"
  CHI_fan_hanjie:0 "范汉杰"
- CHI_deng_zhaoxiang:0 "邓兆祥"
- CHI_li_yuxi:0 "黎玉玺"
+ CHI_chan_chak:0 "陈策"
  CHI_chen_cheng:0 "陈诚"
  CHI_feng_yuxiang:0 "冯玉祥"
  CHI_claire_lee_chennault:0 "克莱尔·李·陈纳德"
@@ -417,16 +416,6 @@
  TAN_ma_zhanshan:0 "Ma Zhanshan"
  TAN_zhao_linge:0 "Zhao Linge"
  TAN_sonin_kangan:0 "Sonin Kang"
-
- #朝鲜#
- KOR_Syngman_Rhee:0 "李承晚"
- KOR_Kim_Il_sung:0 "金日成"
- KOR_Abe_Nobuyuki:0 "阿部信行"
- KOR_Park_Heon_young:0 "朴宪永"
- KOR_Choe_Yong_gon:0 "崔庸健"
- KOR_O_Jin_u:0 "吴振宇"
- KOR_Choi_Kwang:0 "崔光"
- KOR_Ri_Ul_sol:0 "李乙雪"
 
  #琉球#
  LUU_Sho_Hiroshi:0 "尚顺王"

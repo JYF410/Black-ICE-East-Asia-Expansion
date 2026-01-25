@@ -10,7 +10,6 @@ asia_naval_capital_bc = {
 		CAN
 	}
 	available_for = {
-		KOR  #新增
 		LUU  #新增
 		PAK  #新增
 		SIB  #新增
@@ -81,7 +80,6 @@ asia_naval_cruiser_heavy = {
 		CAN
 	}
 	available_for = {
-		KOR  #新增
 		LUU  #新增
 		PAK  #新增
 		SIB  #新增
@@ -152,7 +150,6 @@ asia_naval_cruiser_light = {
 		CAN
 	}
 	available_for = {
-		KOR  #新增
 		LUU  #新增
 		PAK  #新增
 		SIB  #新增
@@ -223,7 +220,6 @@ asia_naval_destroyers = {
 		CAN
 	}
 	available_for = {
-		KOR  #新增
 		LUU  #新增
 		PAK  #新增
 		SIB  #新增
@@ -284,7 +280,6 @@ asia_naval_submarine = {
 		CAN
 	}
 	available_for = {
-		KOR  #新增
 		LUU  #新增
 		PAK  #新增
 		SIB  #新增

@@ -350,8 +350,7 @@ recruit_character = CHI_xu_tingyao
 recruit_character = CHI_xiong_shihui
 recruit_character = CHI_li_yutang
 recruit_character = CHI_fan_hanjie
-recruit_character = CHI_deng_zhaoxiang
-recruit_character = CHI_li_yuxi
+recruit_character = CHI_chan_chak
 #↑↑↑新增将领↑↑↑
 activate_advisor = CHI_du_yuming_army_chief
 activate_advisor = CHI_falkenhausen_theorist

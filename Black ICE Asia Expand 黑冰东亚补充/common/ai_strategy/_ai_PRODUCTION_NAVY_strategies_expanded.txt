@@ -1,19 +1,6 @@
-#亚洲国家战列巡洋舰生产策略
-asia_heavy_cruisers_production = {
-	KOR = {
-		enable = { always = yes }
-		abort = { always = no }
-		num_of_naval_factories > 12
-		ai_strategy = {
-			type = unit_ratio
-			id = battle_cruiser
-			value = 50
-		}
-	}
-}
 #亚洲国家重巡洋舰生产策略
 asia_heavy_cruisers_production = {
-	KOR = {
+	PAK = {
 		enable = { always = yes }
 		abort = { always = no }
 		num_of_naval_factories > 10
@@ -26,16 +13,6 @@ asia_heavy_cruisers_production = {
 }
 #亚洲国家轻巡洋舰生产策略
 asia_light_cruisers_production = {
-	KOR = {
-		enable = { always = yes }
-		abort = { always = no }
-		num_of_naval_factories > 8
-		ai_strategy = {
-			type = unit_ratio
-			id = light_cruiser
-			value = 500
-		}
-	}
 	PAK = {
 		enable = { always = yes }
 		abort = { always = no }
@@ -49,16 +26,6 @@ asia_light_cruisers_production = {
 }
 #亚洲国家驱逐舰生产策略
 asia_destroyers_production = {
-	KOR = {
-		enable = { always = yes }
-		abort = { always = no }
-		num_of_naval_factories > 6
-		ai_strategy = {
-			type = unit_ratio
-			id = destroyer
-			value = 1000
-		}
-	}
 	LUU = {
 		enable = { always = yes }
 		abort = { always = no }
@@ -102,16 +69,6 @@ asia_destroyers_production = {
 }
 #亚洲国家潜艇生产策略
 asia_submarine_production = {
-	KOR = {
-		enable = { always = yes }
-		abort = { always = no }
-		num_of_naval_factories > 4
-		ai_strategy = {
-			type = unit_ratio
-			id = submarine
-			value = 2000
-		}
-	}
 	LUU = {
 		enable = { always = yes }
 		abort = { always = no }

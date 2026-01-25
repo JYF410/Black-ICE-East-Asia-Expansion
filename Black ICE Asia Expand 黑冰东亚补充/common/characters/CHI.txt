@@ -1049,30 +1049,12 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	#邓兆祥。重庆号舰长，于1949年2月25日在吴淞口举行了震惊中外的“重庆号起义”。#
-	CHI_deng_zhaoxiang={
-		name=CHI_deng_zhaoxiang
+	#陈策
+	CHI_chan_chak={
+		name=CHI_chan_chak
 		portraits={
 			army={
-				large="gfx/leaders/CHI/portrait_chi_deng_zhaoxiang.dds"
-			}
-		}
-        navy_leader={
-			traits={ navy_career_officer }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id = -1
-		}
-	}
-	#黎玉玺。中华民国海军一级上将，曾任参谋总长与海军总司令。#
-	CHI_li_yuxi={
-		name=CHI_li_yuxi
-		portraits={
-			army={
-				large="gfx/leaders/CHI/portrait_chi_li_yuxi.dds"
+				large="gfx/leaders/CHI/portrait_CHI_chan_chak.dds"
 			}
 		}
         navy_leader={

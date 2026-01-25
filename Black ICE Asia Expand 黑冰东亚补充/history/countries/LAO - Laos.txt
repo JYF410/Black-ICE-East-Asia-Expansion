@@ -6,6 +6,9 @@ set_war_support = 0.5
 
 set_convoys = 3
 
+set_country_flag = ai_country_logic #启用AI调度，加载d_ai_logic/TAG
+set_country_flag = ai_has_air_production #启用AI飞机生产，加载位置common\ai_strategy\_ai_AIR_PRODUCTION_strategies.txt
+
 # Starting tech
 set_technology = {
 	#BICE_airrange_balance = 1
