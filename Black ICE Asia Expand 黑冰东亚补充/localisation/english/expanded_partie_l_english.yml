@@ -1,0 +1,18 @@
+﻿l_english:
+ ###################################### Turkestan (TRK) #####################################
+ TRK_communism_party:0 "Communist Party of Turkestan"
+ TRK_communism_party_long:0 "Communist Party of Turkestan"
+ TRK_neutrality_party:0 "Central Asian Autonomous Committee"
+ TRK_neutrality_party_long:0 "Central Asian Autonomous Committee"
+ TRK_monarchism_party:0 "Kokand Royalist Alliance"
+ TRK_monarchism_party_long:0 "Kokand Royalist Alliance"
+
+ ####################################### Siberia (SIB) ######################################
+ SIB_communism_party:0 "Russian Social Democratic Labour Party"
+ SIB_communism_party_long:0 "Russian Social Democratic Labour Party"
+ SIB_socialism_party:0 "Socialist Revolutionary Party"
+ SIB_socialism_party_long:0 "Socialist Revolutionary Party"
+ SIB_neutrality_party:0 "Siberian Autonomous Committee"
+ SIB_neutrality_party_long:0 "Siberian Autonomous Committee"
+ SIB_fascism_party:0 "Far East White Russian Refugee Union"
+ SIB_fascism_party_long:0 "Far East White Russian Refugee Union"

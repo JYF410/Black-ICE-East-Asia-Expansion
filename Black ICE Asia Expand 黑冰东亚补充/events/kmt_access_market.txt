@@ -1,0 +1,92 @@
+add_namespace = kmt_access_market
+
+#吸引外国投资（由CHI触发）
+country_event = {
+	id = kmt_access_market.1
+	title = kmt_access_market.1.t
+	desc = kmt_access_market.1.d
+	picture = GFX_report_event_china_chiang_kai_shek
+	fire_only_once = yes
+	is_triggered_only = yes
+	#CHI同意
+	option = {
+		name = kmt_access_market.1.a
+		trigger = { tag = CHI }
+			CHI = {
+				set_rule = { can_access_market = yes }
+			}
+			hidden_effect = {
+				GER = {
+					add_opinion_modifier = {
+						target = CHI
+						modifier = huge_increase
+					}
+					remove_opinion_modifier = {
+						target = CHI
+						modifier = different_government #移除：不同的意识形态
+					}
+				}
+				SOV = {
+					add_opinion_modifier = {
+						target = CHI
+						modifier = huge_increase
+					}
+					remove_opinion_modifier = {
+						target = CHI
+						modifier = different_government #移除：不同的意识形态
+					}
+				}
+				ENG = {
+					add_opinion_modifier = {
+						target = CHI
+						modifier = huge_increase
+					}
+					remove_opinion_modifier = {
+						target = CHI
+						modifier = different_government #移除：不同的意识形态
+					}
+				}
+				FRA = {
+					add_opinion_modifier = {
+						target = CHI
+						modifier = huge_increase
+					}
+					remove_opinion_modifier = {
+						target = CHI
+						modifier = different_government #移除：不同的意识形态
+					}
+				}
+				USA = {
+					add_opinion_modifier = {
+						target = CHI
+						modifier = huge_increase
+					}
+					remove_opinion_modifier = {
+						target = CHI
+						modifier = different_government #移除：不同的意识形态
+					}
+				}
+				ITA = {
+					add_opinion_modifier = {
+						target = CHI
+						modifier = huge_increase
+					}
+					remove_opinion_modifier = {
+						target = CHI
+						modifier = different_government #移除：不同的意识形态
+					}
+				}
+			}
+		ai_chance = {
+			base = 100
+		}
+	}
+	#CHI拒绝
+	option = {
+		name = kmt_access_market.1.b
+		trigger = { tag = CHI }
+		ai_chance = {
+			base = 0
+		}
+	}
+}

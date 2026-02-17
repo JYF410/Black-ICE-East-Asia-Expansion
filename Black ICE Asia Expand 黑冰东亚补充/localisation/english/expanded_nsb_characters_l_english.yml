@@ -1,0 +1,149 @@
+﻿l_english:
+ ################################ Republic of China (CHI) ################################
+ CHI_tang_enbo:0 "Tang Enbo"
+ CHI_he_yingqin:0 "He Yingqin"
+ CHI_gui_yongqing:0 "Gui Yongqing"
+ CHI_sa_zhenbing:0 "Sah Chen-ping"
+ CHI_zhang_wupen:0 "Zhang Wupen"
+ CHI_qiu_qingquan:0 "Qiu Qingquan"
+ CHI_jiang_weiguo:0 "Chiang Wei-kuo"
+ CHI_liao_yaoxiang:0 "Liao Yaoxiang"
+ CHI_zhang_lingfu:0 "Zhang Lingfu"
+ CHI_zheng_dongguo:0 "Zheng Dongguo"
+ CHI_liu_zhi:0 "Liu Zhi"
+ CHI_ma_zhanshan:0 "Ma Zhanshan"
+ CHI_zhang_zhizhong:0 "Zhang Zhizhong"
+ CHI_song_xilian:0 "Song Xilian"
+ CHI_huang_baitao:0 "Huang Baitao"
+ CHI_huang_wei:0 "Huang Wei"
+ CHI_zhu_peide:0 "Zhu Peide"
+ CHI_cai_tingkai:0 "Cai Tingkai"
+ CHI_sun_yuanliang:0 "Sun Yuanliang"
+ CHI_li_yannian:0 "Li Yannian"
+ CHI_guan_linzheng:0 "Guan Linzheng"
+ CHI_hu_lian:0 "Hu Lian"
+ CHI_fang_xianjue:0 "Fang Xianjue"
+ CHI_luo_zhuoying:0 "Luo Zhuoying"
+ CHI_li_mi:0 "Li Mi"
+ CHI_jiang_dingwen:0 "Jiang Dingwen"
+ CHI_qian_dajun:0 "Qian Dajun"
+ CHI_xu_tingyao:0 "Xu Tingyao"
+ CHI_xiong_shihui:0 "Xiong Shihui"
+ CHI_li_yutang:0 "Li Yutang"
+ CHI_fan_hanjie:0 "Fan Hanjie"
+ CHI_yang_baitao:0 "Yang Baitao"
+ CHI_chan_chak:0 "Chan Chak"
+ CHI_chen_cheng:0 "Chen Cheng"
+ CHI_feng_yuxiang:0 "Feng Yuxiang"
+
+ ############################ Communist China (PRC) ############################
+ PRC_xu_haidong:0 "Xu Haidong"
+ PRC_yang_jingyu:0 "Yang Jingyu"
+ PRC_tan_zheng:0 "Tan Zheng"
+ PRC_zhu_rui:0 "Zhu Rui"
+ PRC_xu_guangda:0 "Xu Guangda"
+ PRC_huang_kecheng:0 "Huang Kecheng"
+ PRC_wang_shusheng:0 "Wang Shusheng"
+ PRC_chen_guang:0 "Chen Guang"
+ PRC_zhang_guotao:0 "Zhang Guotao"
+ PRC_zhang_yunyi:0 "Zhang Yunyi"
+ PRC_zhao_shangzhi:0 "Zhao Shangzhi"
+ PRC_deng_xiaoping:0 "Deng Xiaoping"
+ PRC_xiao_jinguang:0 "Xiao Jinguang"
+ PRC_liu_huaqing:0 "Liu Huaqing"
+ PRC_zeng_kelin:0 "Zeng Kelin"
+ PRC_zhou_xihan:0 "Zhou Xihan"
+ PRC_liu_changyi:0 "Liu Changyi"
+
+ ############################ Warlords & Cliques ############################
+ # PGR - New Beiyang
+ PGR_zhao_dengyu:0 "Zhao Dengyu"
+ PGR_wan_fulin:0 "Wan Fulin"
+ PGR_tong_linge:0 "Tong Linge"
+ PGR_wang_shuchang:0 "Wang Shuchang"
+
+ # XIA - Hunan Clique
+ XIA_he_jian:0 "He Jian"
+ XIA_tang_shengzhi:0 "Tang Shengzhi"
+ XIA_zhang_zizhong:0 "Zhang Zizhong"
+
+ # XSM - Ma Clique
+ XSM_ma_jiyuan:0 "Ma Jiyuan"
+
+ # SHX - Shanxi Clique
+ SHX_shang_zhen:0 "Shang Zhen"
+ SHX_xu_yongchang:0 "Xu Yongchang"
+ SHX_feng_yuxiang:0 "Feng Yuxiang"
+ SHX_sun_lianzhong:0 "Sun Lianzhong"
+ SHX_zhao_chengshou:0 "Zhao Chengshou"
+ SHX_yang_aiyuan:0 "Yang Aiyuan"
+ SHX_chen_changjie:0 "Chen Changjie"
+
+ # GXC - Guangxi Clique
+ GXC_li_zongren:0 "Li Zongren"
+ GXC_bai_chongxi:0 "Bai Chongxi"
+ GXC_huang_shaohong:0 "Huang Shaohong"
+ GXC_li_jishen:0 "Li Jishen"
+
+ # YUN - Yunnan Clique
+ YUN_long_yun:0 "Long Yun"
+ YUN_lu_han:0 "Lu Han"
+ YUN_hu_ruoyu:0 "Hu Ruoyu"
+ YUN_lu_daoyuan:0 "Lu Daoyuan"
+ YUN_zeng_wanzhong:0 "Zeng Wanzhong"
+ YUN_tang_huaiyuan:0 "Tang Huaiyuan"
+ YUN_an_enpu:0 "An Enpu"
+
+ # SCC - Sichuan Clique
+ SCC_sun_zhen:0 "Sun Zhen"
+ SCC_deng_xihou:0 "Deng Xihou"
+ SCC_liu_xiang:0 "Liu Xiang"
+ SCC_sun_jing:0 "Sun Jing"
+ SCC_liao_an:0 "Liao An"
+ SCC_zou_jing:0 "Zou Jing"
+ SCC_xiong_wang:0 "Xiong Wang"
+ SCC_ding_jin:0 "Ding Jin"
+ SCC_yuan_yao:0 "Yuan Yao"
+ SCC_lu_fouhai:0 "Lu Fouhai"
+
+ # MAN - Manchukuo
+ MAN_yu_zhishan:0 "Yu Zhishan"
+ MAN_yin_zuoqian:0 "Yin Zuoqian"
+
+ # LUU - Ryukyu
+ LUU_Sho_Hiroshi:0 "Sho Hiroshi"
+
+ ############################ International Leaders ############################
+ # PAK - Pakistan
+ PAK_Mohammed_Ali_Jinnah:0 "Muhammad Ali Jinnah"
+ PAK_Qazi_Mohammad_Isa:0 "Qazi Mohammad Isa"
+ PAK_Haji_Mohammad_Danesh:0 "Haji Mohammad Danesh"
+ PAK_Muhammad_Zia_ul_Haq:0 "Muhammad Zia-ul-Haq"
+ PAK_Iftikhar_Khan_Janjua:0 "Iftikhar Khan Janjua"
+ PAK_Akbar_Khan:0 "Akbar Khan"
+
+ # LAO - Laos
+ LAO_Sisavang_Vatthana:0 "Sisavang Vatthana"
+ LAO_Souvanna_Phouma:0 "Prince Souvanna Phouma"
+ LAO_Prince_Souphanouvong:0 "Prince Souphanouvong"
+
+ # CAM - Cambodia
+ CAM_Norodom_Sihanouk:0 "Norodom Sihanouk"
+ CAM_Norodom_Suramarit:0 "Norodom Suramarit"
+ CAM_Pol_Pot:0 "Pol Pot"
+
+ # BAN - Bangladesh
+ BAN_Sheikh_Mujibur_Rahman:0 "Sheikh Mujibur Rahman"
+ BAN_Agha_Muhammad_Yahya_Khan:0 "Agha Muhammad Yahya Khan"
+
+ # TRK - Turkestan
+ TRK_Mustafa_Shokay:0 "Mustafa Shokay"
+ TRK_Turar_Ryskulov:0 "Turar Ryskulov"
+ TRK_Sher_Mohammad:0 "Sher Mohammad Bek"
+
+ # SIB - Siberia
+ SIB_Alexei_Grishin:0 "Aleksei Grishin-Almazov"
+ SIB_Vadim_Podbelsky:0 "Vadim Podbelsky"
+ SIB_Mikhaylovich_Semyonov:0 "Grigory Semyonov"
+ SIB_Nikolai_Avksentyev:0 "Nikolai Avksentyev"
+ SIB_Aleksandr_Vasilyevich_Kolchak:0 "Alexander Kolchak"

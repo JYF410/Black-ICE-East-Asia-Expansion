@@ -1,0 +1,14 @@
+on_actions = {
+    on_monthly_CHI = {
+        effect = {
+            if = {
+                limit = {
+                    NOT = { has_country_flag = CHI_kmt_access_market_has_opened }
+                    has_completed_focus = KMT_invite_foreign_investors
+                }
+                country_event = { id = kmt_access_market.1 }
+                set_country_flag = CHI_kmt_access_market_has_opened
+            }
+        }
+    }
+}

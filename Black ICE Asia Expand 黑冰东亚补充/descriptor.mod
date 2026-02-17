@@ -11,5 +11,5 @@ dependencies={
 }
 name="Black ICE Asia Expand 黑冰东亚补充"
 picture="thumbnail.png"
-supported_version="1.16.*"
+supported_version="1.16.9"
 remote_file_id="3345176359"

@@ -1,0 +1,147 @@
+﻿l_simp_chinese:
+ #中华民国#
+ CHI_tang_enbo: "汤恩伯"
+ CHI_he_yingqin: "何应钦"
+ CHI_gui_yongqing: "桂永清"
+ CHI_sa_zhenbing: "萨镇冰"
+ CHI_zhang_wupen: "张武彭"
+ CHI_qiu_qingquan: "邱清泉"
+ CHI_jiang_weiguo: "蒋纬国"
+ CHI_liao_yaoxiang: "廖耀湘"
+ CHI_zhang_lingfu: "张灵甫"
+ CHI_zheng_dongguo: "郑洞国"
+ CHI_liu_zhi: "刘峙"
+ CHI_ma_zhanshan: "马占山"
+ CHI_zhang_zhizhong: "张治中"
+ CHI_song_xilian: "宋希濂"
+ CHI_huang_baitao: "黄百韬"
+ CHI_huang_wei: "黄维"
+ CHI_zhu_peide: "朱培德"
+ CHI_cai_tingkai: "蔡廷锴"
+ CHI_sun_yuanliang: "孙元良"
+ CHI_li_yannian: "李延年"
+ CHI_guan_linzheng: "关麟征"
+ CHI_hu_lian: "胡琏"
+ CHI_fang_xianjue: "方先觉"
+ CHI_luo_zhuoying: "罗卓英"
+ CHI_li_mi: "李弥"
+ CHI_jiang_dingwen: "蒋鼎文"
+ CHI_qian_dajun: "钱大钧"
+ CHI_xu_tingyao: "徐庭瑶"
+ CHI_xiong_shihui: "熊式辉"
+ CHI_li_yutang: "李玉堂"
+ CHI_fan_hanjie: "范汉杰"
+ CHI_yang_baitao: "杨伯涛"
+ CHI_chan_chak: "陈策"
+ CHI_chen_cheng: "陈诚"
+ CHI_feng_yuxiang: "冯玉祥"
+ 
+ #中华人民共和国#
+ PRC_xu_haidong: "徐海东"
+ PRC_yang_jingyu: "杨靖宇"
+ PRC_tan_zheng: "谭政"
+ PRC_zhu_rui: "朱瑞"
+ PRC_xu_guangda: "许光达"
+ PRC_huang_kecheng: "黄克诚"
+ PRC_wang_shusheng: "王树声"
+ PRC_chen_guang: "陈光"
+ PRC_zhang_guotao: "张国焘"
+ PRC_zhang_yunyi: "张云逸"
+ PRC_zhao_shangzhi: "赵尚志"
+ PRC_deng_xiaoping: "邓小平"
+ PRC_xiao_jinguang: "肖劲光"
+ PRC_liu_huaqing: "刘华清"
+ PRC_zeng_kelin: "曾克林"
+ PRC_zhou_xihan: "周希汉"
+ PRC_liu_changyi: "刘昌毅"
+
+ #新北洋
+ PGR_zhao_dengyu: "赵登禹"
+ PGR_wan_fulin: "万福麟"
+ PGR_tong_linge: "佟麟阁"
+ PGR_wang_shuchang: "王树常"
+
+ #湘系
+ XIA_he_jian: "何键"
+ XIA_tang_shengzhi: "唐生智"
+ XIA_zhang_zizhong: "张自忠"
+ 
+ #西北三马
+ XSM_ma_jiyuan: "马继援"
+ 
+ #晋系
+ SHX_shang_zhen: "商震"
+ SHX_xu_yongchang: "徐永昌"
+ SHX_feng_yuxiang: "冯玉祥"
+ SHX_sun_lianzhong: "孙连仲"
+ SHX_zhao_chengshou: "赵承绶"
+ SHX_yang_aiyuan: "杨爱源"
+ SHX_chen_changjie: "陈长捷"
+ 
+ #桂系
+ GXC_li_zongren: "李宗仁"
+ GXC_bai_chongxi: "白崇禧"
+ GXC_huang_shaohong: "黄绍竑"
+ GXC_li_jishen: "李济深"
+
+ #滇系
+ YUN_long_yun: "龙云"
+ YUN_lu_han: "卢汉"
+ YUN_hu_ruoyu: "胡若愚"
+ YUN_lu_daoyuan: "鲁道源"
+ YUN_zeng_wanzhong: "曾万钟"
+ YUN_tang_huaiyuan: "唐淮源"
+ YUN_an_enpu: "安恩溥"
+ 
+ #川系
+ SCC_sun_zhen: "孙震"
+ SCC_deng_xihou: "邓锡侯"
+ SCC_liu_xiang: "刘湘"
+ SCC_sun_jing: "孙靖"
+ SCC_liao_an: "廖安"
+ SCC_zou_jing: "邹靖"
+ SCC_xiong_wang: "熊旺"
+ SCC_ding_jin: "丁进"
+ SCC_yuan_yao: "袁耀"
+ SCC_lu_fouhai: "卢福海"
+ 
+ #伪满
+ MAN_yu_zhishan: "于芷山"
+ MAN_yin_zuoqian: "尹祚乾"
+ 
+ #琉球#
+ LUU_Sho_Hiroshi: "尚顺王"
+
+ #巴基斯坦#
+ PAK_Mohammed_Ali_Jinnah: "穆罕默德·阿里·真纳"
+ PAK_Qazi_Mohammad_Isa: "卡齐·穆罕默德·伊萨"
+ PAK_Haji_Mohammad_Danesh: "哈吉·穆罕默德·达内什"
+ PAK_Muhammad_Zia_ul_Haq: "穆罕默德·齐亚·哈克"
+ PAK_Iftikhar_Khan_Janjua: "伊夫蒂哈尔·汗·詹朱亚"
+ PAK_Akbar_Khan: "阿克巴·汗"
+
+ #老挝#
+ LAO_Sisavang_Vatthana: "西萨旺·瓦达纳"
+ LAO_Souvanna_Phouma: "梭发那·富马亲王"
+ LAO_Prince_Souphanouvong: "苏发努冯亲王"
+
+ #柬埔寨#
+ CAM_Norodom_Sihanouk: "西哈努克亲王"
+ CAM_Norodom_Suramarit: "苏拉玛里特国王"
+ CAM_Pol_Pot: "波尔布特"
+
+ #孟加拉#
+ BAN_Sheikh_Mujibur_Rahman: "谢赫·穆吉布·拉赫曼"
+ BAN_Agha_Muhammad_Yahya_Khan: "阿迦·穆罕默德·叶海亚·汗"
+
+ #突厥斯坦#
+ TRK_Mustafa_Shokay: "穆罕默德·阿里·真纳"
+ TRK_Turar_Ryskulov: "图拉尔·雷斯库洛夫"
+ TRK_Sher_Mohammad: "希尔·穆罕默德·贝克·加齐"
+
+ #西伯利亚#
+ SIB_Alexei_Grishin: "阿列克谢·格里申-阿尔马佐夫"
+ SIB_Vadim_Podbelsky: "瓦迪姆·尼古拉耶维奇"
+ SIB_Mikhaylovich_Semyonov: "格里戈里·米哈伊洛维奇·谢苗诺夫"
+ SIB_Nikolai_Avksentyev: "尼古拉·阿夫克森季耶夫"
+ SIB_Aleksandr_Vasilyevich_Kolchak: "亚历山大·瓦西里耶维奇·高尔察克"
