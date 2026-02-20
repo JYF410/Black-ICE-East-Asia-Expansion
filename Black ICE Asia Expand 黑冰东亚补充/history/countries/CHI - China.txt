@@ -15,8 +15,8 @@ save_global_event_target_as = WTT_current_china_leader
 set_global_flag = KMT_mod_enabled
 set_global_flag = KMT_first_chinese_civil_war
 set_major = yes
+
 set_country_flag = CHI_armor #新增中国国民革命军坦克科技
-set_country_flag = USA_air #美国飞机科技
 
 if = {
 	limit = {
@@ -51,7 +51,6 @@ if = {
 		early_engine = 1
 		airplane_launcher = 1
 		old_cruiser = 1
-		early_ship_hull_carrier = 1 #适配submod：黑冰民国海军补充
 	}
 	set_naval_oob = "CHI_1936_naval"
 }
@@ -322,6 +321,10 @@ recruit_character = CHI_liu_luyin
 recruit_character = CHI_claire_lee_chennault
 recruit_character = CHI_chen_shaokuan
 recruit_character = CHI_wang_ganchang
+
+activate_advisor = CHI_du_yuming_army_chief
+activate_advisor = CHI_falkenhausen_theorist
+
 #↓↓↓新增将领↓↓↓
 recruit_character = CHI_sa_zhenbing
 recruit_character = CHI_tang_enbo
@@ -352,8 +355,6 @@ recruit_character = CHI_li_yutang
 recruit_character = CHI_fan_hanjie
 recruit_character = CHI_chan_chak
 #↑↑↑新增将领↑↑↑
-activate_advisor = CHI_du_yuming_army_chief
-activate_advisor = CHI_falkenhausen_theorist
 ########################################################################
 ## BICE variants
 ########################################################################

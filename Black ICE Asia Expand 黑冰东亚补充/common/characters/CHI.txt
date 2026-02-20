@@ -1058,7 +1058,7 @@ characters = {
 			}
 		}
         navy_leader={
-			traits={ cuts_corners mine_layer }
+			traits={ gentlemanly mine_layer }
 			skill=1
 			attack_skill=1
 			defense_skill=1
