@@ -17,6 +17,7 @@ set_global_flag = KMT_first_chinese_civil_war
 set_major = yes
 
 set_country_flag = CHI_armor #新增中国国民革命军坦克科技
+set_country_flag = USA_air #新增中国国民革命军坦克科技
 
 if = {
 	limit = {

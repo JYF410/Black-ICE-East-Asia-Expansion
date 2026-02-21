@@ -9,7 +9,7 @@ dependencies={
 	"BlackICE CN"
 	"Black ICE CHINA TANK TECH 黑冰中国国民革命军坦克科技"
 }
-name="Black ICE Asia Expand 黑冰东亚补充"
+name="Black ICE Asia Expand"
 picture="thumbnail.png"
-supported_version="1.16.9"
+supported_version="1.17.*"
 remote_file_id="3345176359"
