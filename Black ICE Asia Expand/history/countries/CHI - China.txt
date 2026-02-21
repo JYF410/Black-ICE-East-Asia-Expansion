@@ -17,20 +17,6 @@ set_global_flag = KMT_first_chinese_civil_war
 set_major = yes
 
 set_country_flag = CHI_armor #新增中国国民革命军坦克科技
-set_country_flag = USA_air #新增中国国民革命军坦克科技
-
-if = {
-	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
-	set_technology = {
-		generic_naval_tech = 1
-		generic_naval = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-	}
-	set_naval_oob = "CHI_1936_naval_legacy"
-}
 
 if = {
 	limit = {
@@ -146,6 +132,11 @@ set_autonomy = {
 	autonomous_state = autonomy_minor_warlord
 	freedom_level = 0.25
 }
+create_faction_from_template = faction_template_chinese_united_front
+add_to_faction = YUN
+add_to_faction = ZXL
+add_to_faction = XIA
+
 add_opinion_modifier = {
     target = GER
     modifier = offered_support
@@ -355,49 +346,11 @@ recruit_character = CHI_xiong_shihui
 recruit_character = CHI_li_yutang
 recruit_character = CHI_fan_hanjie
 recruit_character = CHI_chan_chak
-#↑↑↑新增将领↑↑↑
 ########################################################################
 ## BICE variants
 ########################################################################
 # 1936 Start #
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	create_equipment_variant = {
-		name = "Chao Ho Class"
-		type = light_cruiser_1
-		parent_version = 0
-		#upgrades = {
-		#	ship_quality_upgrade = 0
-		#	ship_engine_upgrade = 0
-		#	ship_barrels_upgrade = 0
-		#	ship_anti_air_upgrade = 0
-		#}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Hai Chi Class"
-		type = light_cruiser_1
-		parent_version = 0
-		#upgrades = {
-		#	ship_quality_upgrade = 0
-		#	ship_engine_upgrade = 0
-		#	ship_barrels_upgrade = 0
-		#	ship_anti_air_upgrade = 0
-		#}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Ning Hai Class"
-		type = light_cruiser_1
-		parent_version = 0
-		#upgrades = {
-		#	ship_quality_upgrade = 0
-		#	ship_engine_upgrade = 0
-		#	ship_barrels_upgrade = 1
-		#	ship_anti_air_upgrade = 0
-		#}
-	}
-}
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Escorts #

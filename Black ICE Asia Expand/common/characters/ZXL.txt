@@ -1,6 +1,5 @@
 characters={
 #Auto-Imported via PDX-Tool
-	#张学良
 	ZXL_zhang_xueliang={
 		name = ZXL_zhang_xueliang
 		portraits={
@@ -27,7 +26,6 @@ characters={
 			id=-1
 		}
 	}
-	#杨虎城
 	ZXL_yang_hucheng={
 		name = ZXL_yang_hucheng
 		portraits={
@@ -52,14 +50,13 @@ characters={
 			id=-1
 		}
 	}
-	#张作相
 	ZXL_zhang_zuoxiang={
 		name = ZXL_zhang_zuoxiang
 		portraits={
 			army = {
 				large = "gfx/leaders/ZXL/Portrait_ZXL_Zhang_Zuoxiang.dds"
 			}
-		}
+		 }
 		corps_commander={
 			traits={ cavalry_officer }
 			skill=2
@@ -166,7 +163,7 @@ characters={
 		}
 	}
 #manually migrated ministers
-#political_advisor
+#political_minister
 	ZXL_li_bo_hai={
 		name=ZXL_li_bo_hai
 		portraits={
@@ -175,19 +172,19 @@ characters={
 			#}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = ZXL_li_bo_hai_political_advisor
+			slot = political_minister
+			idea_token = ZXL_li_bo_hai_political_minister
 			on_add = {
 				set_temp_variable = { character = token:ZXL_li_bo_hai}
-				set_temp_variable = { slot = token:political_advisor}
+				set_temp_variable = { slot = token:political_minister}
 
-				political_advisor_on_add_effect = yes
+				political_minister_on_add_effect = yes
 			} 
 			on_remove = {
 				set_temp_variable = { character = token:ZXL_li_bo_hai}
-				set_temp_variable = { slot = token:political_advisor}
+				set_temp_variable = { slot = token:political_minister}
 
-				political_advisor_on_remove_effect = yes
+				political_minister_on_remove_effect = yes
 			} 
 			
 			allowed = {
@@ -206,19 +203,19 @@ characters={
 			#}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = ZXL_pop_political_advisor
+			slot = political_minister
+			idea_token = ZXL_pop_political_minister
 			on_add = {
 				set_temp_variable = { character = token:ZXL_pop}
-				set_temp_variable = { slot = token:political_advisor}
+				set_temp_variable = { slot = token:political_minister}
 
-				political_advisor_on_add_effect = yes
+				political_minister_on_add_effect = yes
 			} 
 			on_remove = {
 				set_temp_variable = { character = token:ZXL_pop}
-				set_temp_variable = { slot = token:political_advisor}
+				set_temp_variable = { slot = token:political_minister}
 
-				political_advisor_on_remove_effect = yes
+				political_minister_on_remove_effect = yes
 			} 
 			
 			allowed = {

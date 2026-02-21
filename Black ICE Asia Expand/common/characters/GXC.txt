@@ -1,5 +1,4 @@
 characters={
-	##陆军将领##
 	#李宗仁#
 	GXC_li_zongren={
 		name= GXC_li_zongren
@@ -8,29 +7,29 @@ characters={
 				large="gfx/leaders/GXC/Portrait_Li_Zongren.dds"
 			}
 			army={
-				small="gfx/interface/ideas/GXC/idea_generic_Li_Zongren.dds"
 				large="gfx/leaders/GXC/Portrait_Li_Zongren.dds"
+			}
+			army={
+				small="gfx/interface/ideas/GXC/idea_generic_Li_Zongren.dds"
 			}
 		}
 		advisor={
 			slot = supreme_commander
-			idea_token = CHI_li_zongren_supreme_commander
+			idea_token = GXC_li_zongren_supreme_commander
 			on_add = {
-				set_temp_variable = { character = token:CHI_li_zongren}
+				set_temp_variable = { character = token:GXC_li_zongren}
 				set_temp_variable = { slot = token:supreme_commander}
 
 				supreme_commander_on_add_effect = yes
 			} 
 			on_remove = {
-				set_temp_variable = { character = token:CHI_li_zongren}
+				set_temp_variable = { character = token:GXC_li_zongren}
 				set_temp_variable = { slot = token:supreme_commander}
 
 				supreme_commander_on_remove_effect = yes
 			} 
-			allowed = {
-				original_tag = CHI
-			}
-			traits = { neutral supreme_com_organizer army_chief_defensive_2 }
+			traits = { army_chief_defensive_2 }
+			
 		}
 		advisor={
 			slot = interior_minister
@@ -61,11 +60,12 @@ characters={
 		country_leader={
 			desc="POLITICS_LI_ZONGREN_DESC"
 			ideology=despotism
+			traits = { good_soldier }
 			expire="1965.1.1.1"
 			id=-1
 		}
 	}
-	#陈济棠？#
+	#陈济棠#
 	GXC_chen_jitang={
 		name = GXC_chen_jitang
 		advisor={
@@ -95,11 +95,19 @@ characters={
 				small="GFX_idea_generic_army_asia_2"
 			}
 			army={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+				large="gfx/leaders/YUT/Portrait_chen_jitang.dds"
 			}
 		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
 	}
-	#？？？#
+	#李服膺#
 	GXC_li_fuying={
 		name = GXC_li_fuying
 		portraits={
@@ -107,11 +115,19 @@ characters={
 				small="gfx/interface/ideas/idea_asia_generic_land_3.dds"
 			}
 			army={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+				large="gfx/leaders/GXC/portrait_li_fuying.dds"
 			}
 		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
 	}
-	#阎锡山？#
+	#阎锡山#
 	GXC_yan_xishan={
 		name = GXC_yan_xishan
 		portraits={
@@ -119,11 +135,19 @@ characters={
 				small="gfx/interface/ideas/idea_asia_generic_land_1.dds"
 			}
 			army={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+				large="gfx/leaders/SHX/portrait_shx_yan_xishan.dds"
 			}
 		}
+		corps_commander={
+			traits={ defensive_doctrine_CC }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
 	}
-	##政治顾问##
 	GXC_jin_likou={
 		name = GXC_jin_likou
 		portraits={
@@ -452,6 +476,8 @@ characters={
 		portraits={
 			army={
 				small = "gfx/interface/ideas/GXC/idea_generic_Bai_Chongxi.dds"
+			}
+			army={
 				large = "gfx/leaders/GXC/Portrait_bai_chongxi.dds"
 			}
 		}
@@ -529,7 +555,6 @@ characters={
 			}
 		}
 	}
-	#黄绍竑#
 	GXC_huang_shaohong={
 		advisor={
 			slot = army_chief
@@ -557,6 +582,8 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_army_asia_1"
+			}
+			army={
 				large="gfx/leaders/GXC/Portrait_gxc_Huang_Shaohong.dds"
 			}
 		}
@@ -674,6 +701,8 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_asia_1"
+			}
+			army={
 				large="gfx/leaders/GXC/portrait_gxc_li_jishen.dds"
 			}
 		}
@@ -692,7 +721,7 @@ characters={
 
 				foreign_minister_on_remove_effect = yes
 			} 
-			traits = { smooth_talking_charmer }	
+			traits = { smooth_talking_charmer }		
 		}
 		corps_commander={
 			traits={ career_officer infantry_officer }
@@ -729,8 +758,6 @@ characters={
 			traits = { popular_figurehead }
 		}
 	}
-	
-	#新增将领#
 	#李品仙#
 	GXC_li_pinxian={
 		name=GXC_li_pinxian
@@ -754,7 +781,7 @@ characters={
 		name=GXC_huang_qixiang
 		portraits={
 			army={
-				large="gfx/leaders/GXC/portrait_gxc__huang_qixiang.dds"
+				large="gfx/leaders/GXC/portrait_gxc_huang_qixiang.dds"
 			}
 		}
 		corps_commander={

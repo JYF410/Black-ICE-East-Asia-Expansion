@@ -136,7 +136,7 @@ characters = {
 				small = "gfx/interface/ideas/CHI/idea_generic_Du_Yuming.dds"
 			}
 			army = {
-				large = "GFX_portrait_chi_du_yuming"
+				large = "gfx/leaders/CHI/portrait_chi_du_yuming.dds"
 			}
 		}
 		advisor = {
@@ -161,9 +161,9 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { trait_cautious harsh_leader armor_officer defensive_doctrine_FM }
+			traits = { trait_cautious harsh_leader }
 			skill = 3
-			attack_skill = 3
+			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 2
 			logistics_skill = 2
@@ -182,9 +182,9 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { brilliant_strategist trait_reckless war_hero offensive_doctrine_FM }
+			traits = { brilliant_strategist war_hero }
 			skill = 2
-			attack_skill = 2
+			attack_skill = 1
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 1
@@ -199,11 +199,11 @@ characters = {
 				small = "GFX_portrait_chi_tai_an_lan_small"
 			}
 			army = {
-				large = "gfx/leaders/CHI/portrait_chi_dai_anlan.dds"
+				large = "gfx/leaders/CHI/portrait_chi_tai_an_lan.dds"
 			}
 		}
 		field_marshal = {
-			traits = { career_officer trait_reckless offensive_doctrine_FM }
+			traits = { career_officer trait_reckless }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -224,7 +224,7 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { trait_cautious infantry_officer defensive_doctrine_FM }
+			traits = { trait_cautious infantry_officer }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -412,12 +412,12 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={ harsh_leader armor_officer }
-			skill = 3
-			attack_skill = 3
+			traits={ trait_reckless armor_officer }
+			skill = 2
+			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 1
-			logistics_skill = 3
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -862,7 +862,7 @@ characters = {
 	}
 
 	##海军将领##
-	#陈绍宽。国民革命军海军一级上将，曾任中华民国海军总司令。#
+	#陈绍宽
 	CHI_chen_shaokuan = {
 		name = CHI_chen_shaokuan
 		portraits = {
@@ -933,7 +933,7 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	#萨镇冰。先后担任过清朝的海军统制、民国海军总长等重要军职，还曾代理过国务总理。#
+	#萨镇冰
 	CHI_sa_zhenbing = {
 		name = CHI_sa_zhenbing
 		portraits = {
@@ -981,7 +981,7 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	#桂永清。1946年9月回国后任海军总司令，1954年病逝于台湾，后被追晋陆军一级上将。#
+	#桂永清
 	CHI_gui_yongqing = {
 		name = CHI_gui_yongqing
 		portraits = {
