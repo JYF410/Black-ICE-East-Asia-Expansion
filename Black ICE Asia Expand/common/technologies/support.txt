@@ -44,7 +44,7 @@ technologies = {
 	@TRAIN_PRIORITY = 5000
 ######### Technologies ###############
 	tech_support = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_equipments = {
 			support_equipment_1
@@ -155,7 +155,7 @@ technologies = {
 	}
 ######## Engineers
 	tech_engineers = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_subunits = {
 			engineer
@@ -207,7 +207,7 @@ technologies = {
 		
 	}
 	tech_engineers2 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_subunits = {
 			engineer_mech
@@ -285,7 +285,7 @@ technologies = {
 		
 	}
 	tech_engineers3 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		path = {
 			leads_to_tech = tech_engineers4
@@ -342,7 +342,7 @@ technologies = {
 		
 	}
 	tech_engineers4 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_all_engineer = {
 			entrenchment = 1
@@ -401,7 +401,7 @@ technologies = {
 		
 	}
 	tech_combat_engineers = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_subunits = {
 			combat_engineer
@@ -454,7 +454,7 @@ technologies = {
 		
 	}
 	tech_combat_engineers2 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_subunits = {
 			combat_engineer_mech
@@ -507,7 +507,7 @@ technologies = {
 		
 	}
 	explosives_team = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_all_engineer = {
 			river = {
@@ -633,7 +633,7 @@ technologies = {
 		
 	}
 	tech_airborne_engineers = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_subunits = {
 			airborne_engineer
@@ -736,7 +736,7 @@ technologies = {
 	}
 #################### Infantry Recon ################
 	tech_recon = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_subunits = {
 			recon
@@ -794,7 +794,7 @@ technologies = {
 	}
 
 	subtech_recon_cav_1 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		#enable_equipments = {
 		#	recon_cav_equipment_0
@@ -843,7 +843,7 @@ technologies = {
 	}
 
 	subtech_recon_mot_1 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_equipments = {
 			recon_mot_equipment_0
@@ -891,7 +891,7 @@ technologies = {
 	}
 
 	tech_recon2 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_equipments = {
 			recon_equipment_1
@@ -947,7 +947,7 @@ technologies = {
 		
 	}
 	subtech_recon_mech_1 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_subunits = {
 			recon_mech
@@ -997,7 +997,7 @@ technologies = {
 		}
 	}
 	tech_recon3 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		recon = {
 			recon = 1
@@ -1049,7 +1049,7 @@ technologies = {
 		
 	}
 	tech_mot_recon3 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_mobile_recon = {
 			recon = 1
@@ -1111,7 +1111,7 @@ technologies = {
 		
 	}
 	tech_recon4 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		recon = {
 			recon = 1
@@ -1166,7 +1166,7 @@ technologies = {
 		
 	}
 	tech_mot_recon4 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_mobile_recon = {
 			recon = 1
@@ -1221,7 +1221,7 @@ technologies = {
 		
 	}
 	tech_recon5 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		recon = {
 			recon = 1
@@ -1271,7 +1271,7 @@ technologies = {
 		
 	}
 	tech_mot_recon5 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_mobile_recon = {
 			recon = 1
@@ -1323,7 +1323,7 @@ technologies = {
 	##########################################################
 	###################### Militairy Police ##################
 	tech_military_police = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_subunits = {
 			military_police
@@ -1370,7 +1370,7 @@ technologies = {
 		
 	}
 	tech_military_police2 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		military_police = {
 			suppression_factor = 0.01
@@ -1418,7 +1418,7 @@ technologies = {
 		
 	}
 	tech_military_police3 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		military_police = {
 			suppression_factor = 0.01
@@ -1471,7 +1471,7 @@ technologies = {
 		
 	}
 	tech_improved_suppression = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_mobile = {
 			suppression = 0.1
@@ -1515,7 +1515,7 @@ technologies = {
 		
 	}
 	tech_military_police4 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		military_police = {
 			suppression_factor = 0.02
@@ -1562,7 +1562,7 @@ technologies = {
 	}
 	#### Maintenance Company ####
 	tech_maintenance_company = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_subunits = {
 			maintenance_company
@@ -1617,7 +1617,7 @@ technologies = {
 		
 	}
 	tech_maintenance_company2 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_all_maintenance = {
 			reliability_factor = 0.03
@@ -1671,7 +1671,7 @@ technologies = {
 		
 	}
 	tech_maintenance_company3 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_all_maintenance = {
 			reliability_factor = 0.03
@@ -1724,7 +1724,7 @@ technologies = {
 		
 	}
 	tech_maintenance_company4 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_all_maintenance = {
 			reliability_factor = 0.03
@@ -1773,7 +1773,7 @@ technologies = {
 	}
 	#### Field Hospital ####
 	tech_field_hospital = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_subunits = {
 			field_hospital_cav
@@ -1834,7 +1834,7 @@ technologies = {
 		
 	}
 	tech_field_hospital2 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		field_hospital_cav = {
 			casualty_trickleback = 0.02
@@ -1890,7 +1890,7 @@ technologies = {
 		
 	}
 	tech_field_hospital3 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		field_hospital_cav = {
 			casualty_trickleback = 0.02
@@ -1949,7 +1949,7 @@ technologies = {
 		
 	}
 	tech_field_hospital4 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		field_hospital_cav = {
 			casualty_trickleback = 0.02
@@ -2004,7 +2004,7 @@ technologies = {
 	}
 	#### Logistics Company ####
 	tech_logistics_company = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_subunits = {
 			logistics_company
@@ -2065,7 +2065,7 @@ technologies = {
 		
 	}
 	tech_logistics_company2 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_all_logistics = {
 			supply_consumption_factor = -0.04
@@ -2130,7 +2130,7 @@ technologies = {
 		
 	}
 	tech_logistics_company3 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_all_logistics = {
 			supply_consumption_factor = -0.04
@@ -2186,7 +2186,7 @@ technologies = {
 		
 	}
 	tech_logistics_company4 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_all_logistics = {
 			supply_consumption_factor = -0.04
@@ -2238,7 +2238,7 @@ technologies = {
 	}
 	#### Signal Company ####
 	tech_signal_company = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_subunits = {
 			signal_company
@@ -2307,7 +2307,7 @@ technologies = {
 		
 	}
 	tech_signal_company2 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_all_signal = {
 			initiative = 0.03
@@ -2363,7 +2363,7 @@ technologies = {
 	}
 
 	tech_signal_company3 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_all_signal = {
 			initiative = 0.03
@@ -2421,7 +2421,7 @@ technologies = {
 		
 	}
 	tech_signal_company4 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		category_all_signal = {
 			initiative = 0.03
@@ -2477,7 +2477,7 @@ technologies = {
 	#################### Train Techs ################
 	
 	tech_basic_train = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_equipments = {
 			train_equipment_1
@@ -2530,7 +2530,7 @@ technologies = {
 	}
 	#新增无限研发时间项目（全部研发完成后挂机用）#
 	tech_NA_time_1 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 		enable_equipments = {
 			#No equipment, just for time sink#
 		}
@@ -2553,7 +2553,7 @@ technologies = {
 	}
 	#新增无限研发时间项目（全部研发完成后挂机用）#
 	tech_NA_time_2 = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 		enable_equipments = {
 			#No equipment, just for time sink#
 		}
@@ -2575,7 +2575,7 @@ technologies = {
 		}
 	}
 	tech_wartime_train = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_equipments = {
 			train_equipment_2
@@ -2623,7 +2623,7 @@ technologies = {
 		
 	}
 	tech_armored_train = {
-		allow = { has_country_flag = UNLOCK:support_folder }
+
 
 		enable_equipments = {
 			train_equipment_3

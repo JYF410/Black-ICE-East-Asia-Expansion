@@ -100,7 +100,7 @@ technologies = {
 
 # Tools
 	basic_machine_tools = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		production_factory_max_efficiency_factor = 0.04
 		production_factory_start_efficiency_factor = 0.03
@@ -166,7 +166,7 @@ technologies = {
 		}
 	}
 	quality_control = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		production_factory_efficiency_gain_factor = 0.05
 		
@@ -220,7 +220,7 @@ technologies = {
 		}
 	}
 	fluorescent_lighting = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		production_factory_max_efficiency_factor = 0.04
 		research_cost = 0.80
@@ -259,7 +259,7 @@ technologies = {
 	}
 
 	improved_military_logistics = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		no_supply_grace = 24
 		army_fuel_capacity_factor = 0.10
@@ -294,7 +294,7 @@ technologies = {
 		}
 	}
 	electric_hoist = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		production_factory_efficiency_gain_factor = 0.15
 
@@ -334,7 +334,7 @@ technologies = {
 		}
 	}
 	improved_machine_tools = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		production_factory_max_efficiency_factor = 0.08
 		production_factory_start_efficiency_factor = 0.02
@@ -380,7 +380,7 @@ technologies = {
 		}
 	}
 	advanced_machine_tools = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		production_factory_max_efficiency_factor = 0.08
 		production_factory_efficiency_gain_factor = 0.25
@@ -427,7 +427,7 @@ technologies = {
 	}
 
 	assembly_line_production = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		production_factory_max_efficiency_factor = 0.15
 		production_speed_industrial_complex_factor = -0.15
@@ -477,7 +477,7 @@ technologies = {
 	}
 
 	flexible_line = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 	    production_factory_max_efficiency_factor = 0.05
 		line_change_production_efficiency_factor = 0.5
@@ -522,7 +522,7 @@ technologies = {
 		}
 	}
 	streamlined_line = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		production_factory_max_efficiency_factor = 0.07
 		production_factory_efficiency_gain_factor = 0.3
@@ -561,7 +561,7 @@ technologies = {
 		}
 	}
 	modern_machine_tools = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 	
 		production_factory_max_efficiency_factor = 0.05
 		production_factory_efficiency_gain_factor = 0.1
@@ -606,7 +606,7 @@ technologies = {
 		}
 	}
 	automated_assembly_lines = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		production_speed_arms_factory_factor = -0.06
 		production_speed_dockyard_factor = -0.03
@@ -648,7 +648,7 @@ technologies = {
 	}
 
 	tool_maintenance = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		production_factory_max_efficiency_factor = 0.06
 		industry_repair_factor = 0.05
@@ -692,7 +692,7 @@ technologies = {
 	}
 	# Conversion branch - Enabled in DoD
 	improved_equipment_conversion = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		equipment_conversion_speed = 0.35
 
@@ -731,7 +731,7 @@ technologies = {
 	}
 
 	advanced_equipment_conversion = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		equipment_conversion_speed = 0.45
 
@@ -761,7 +761,7 @@ technologies = {
 	}
 	# Workers
 	worker_training = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		production_factory_max_efficiency_factor = 0.1
 		industrial_capacity_dockyard = 0.04
@@ -804,7 +804,7 @@ technologies = {
 		}
 	}
 	worker_safety = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		industry_repair_factor = 0.25
 		line_change_production_efficiency_factor = 0.05
@@ -850,7 +850,7 @@ technologies = {
 	}
 
 	worker_colleges = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		line_change_production_efficiency_factor = 0.1
 		production_factory_efficiency_gain_factor = 0.2
@@ -889,7 +889,7 @@ technologies = {
 	}
 
 	on_spot_training = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		industry_repair_factor = 0.05
 		production_factory_efficiency_gain_factor = 0.25
@@ -934,7 +934,7 @@ technologies = {
 	}
 
 	foriegn_labour = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		industrial_capacity_factory = 0.1
 		production_factory_efficiency_gain_factor = -0.1
@@ -974,7 +974,7 @@ technologies = {
 	}
 ##### Concentrated Industry
 	concentrated_industry = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		industrial_capacity_factory = 0.1
 		#industrial_capacity_dockyard = 0.1
@@ -1030,7 +1030,7 @@ technologies = {
 		}
 	}
 	concentrated_industry2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		industrial_capacity_factory = 0.15
 		#industrial_capacity_dockyard = 0.15
@@ -1088,7 +1088,7 @@ technologies = {
 
 	}
 	concentrated_industry3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		on_research_complete = {
 			set_temp_variable = { tech = token:concentrated_industry3 }
@@ -1174,7 +1174,7 @@ technologies = {
 
 	}
 	concentrated_industry4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		industrial_capacity_factory = 0.25
 		on_research_complete = {
@@ -1255,7 +1255,7 @@ technologies = {
 
 	}
 	concentrated_industry5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		on_research_complete = {
 			set_temp_variable = { tech = token:concentrated_industry5 }
@@ -1323,7 +1323,7 @@ technologies = {
 
 	##### Dispersed Industry
 	dispersed_industry = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		industrial_capacity_factory = 0.10
 		#industrial_capacity_dockyard = 0.08
@@ -1378,7 +1378,7 @@ technologies = {
 		}
 	}
 	dispersed_industry2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		industrial_capacity_factory = 0.13
 		#industrial_capacity_dockyard = 0.12
@@ -1439,7 +1439,7 @@ technologies = {
 
 	}
 	dispersed_industry3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		on_research_complete = {
 			set_temp_variable = { tech = token:dispersed_industry3 }
@@ -1523,7 +1523,7 @@ technologies = {
 
 	}
 	dispersed_industry4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		on_research_complete = {
 			set_temp_variable = { tech = token:dispersed_industry4 }
@@ -1603,7 +1603,7 @@ technologies = {
 
 	}
 	dispersed_industry5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		on_research_complete = {
 			set_temp_variable = { tech = token:dispersed_industry5 }
@@ -1669,7 +1669,7 @@ technologies = {
 	}
 	#### Military Production
 	military_production_i = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = arms_factory
@@ -1709,7 +1709,7 @@ technologies = {
 	}
 
 	military_production_ii = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = arms_factory
@@ -1752,7 +1752,7 @@ technologies = {
 	}
 
 	military_production_iii = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = arms_factory
@@ -1837,7 +1837,7 @@ technologies = {
 	###########################################
 	##### Concentrated Factories Level I
 	armor_industry = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = tank_assembly
@@ -1875,7 +1875,7 @@ technologies = {
 		}
 	}
 	vehicle_industry = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = engine_assembly
@@ -1911,7 +1911,7 @@ technologies = {
 		}
 	}
 	artillery_industry = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = artillery_assembly
@@ -1948,7 +1948,7 @@ technologies = {
 		}
 	}
 	Ltaircraft_industry = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = air_assembly
@@ -1989,7 +1989,7 @@ technologies = {
 		}
 	}
 	ship_industry = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = shipyard
@@ -2027,7 +2027,7 @@ technologies = {
 		}
 	}
 	sub_industry = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = subyard
@@ -2066,7 +2066,7 @@ technologies = {
    
 	##### Concentrated Factories Level II
 	armor_industry2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = tank_assembly
@@ -2109,7 +2109,7 @@ technologies = {
 	}
 	
 	vehicle_industry2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = engine_assembly
@@ -2152,7 +2152,7 @@ technologies = {
 		}
 	}
 	artillery_industry2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = artillery_assembly
@@ -2193,7 +2193,7 @@ technologies = {
 		}
 	}
 	Ltaircraft_industry2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = air_assembly
@@ -2235,7 +2235,7 @@ technologies = {
 		}
 	}
 	ship_industry2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = shipyard
@@ -2276,7 +2276,7 @@ technologies = {
 		}
 	}
 	sub_industry2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = subyard
@@ -2318,7 +2318,7 @@ technologies = {
 	}
 	##### Concentrated Factories Level III
 	armor_industry3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = tank_assembly
@@ -2360,7 +2360,7 @@ technologies = {
 		}
 	}
 	vehicle_industry3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = engine_assembly
@@ -2401,7 +2401,7 @@ technologies = {
 		}
 	}
 	artillery_industry3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = artillery_assembly
@@ -2442,7 +2442,7 @@ technologies = {
 		}
 	}
 	Ltaircraft_industry3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = air_assembly
@@ -2484,7 +2484,7 @@ technologies = {
 		}
 	}
 	ship_industry3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = shipyard
@@ -2525,7 +2525,7 @@ technologies = {
 		}
 	}
 	sub_industry3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		enable_building = {
 			building = subyard
@@ -2569,7 +2569,7 @@ technologies = {
 	###################################
 	##### Construction I
 	construction1 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = industrial_complex
@@ -2626,7 +2626,7 @@ technologies = {
 		
 	}
 	defence_works = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = bunker
@@ -2680,7 +2680,7 @@ technologies = {
 		}
 	}
 	aa_emplacement_construction = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		production_speed_anti_air_building_factor = 0.08
 		power_plant_resilience = 0.08
@@ -2723,7 +2723,7 @@ technologies = {
 		}
 	}
 	pre_fab = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = bunker
@@ -2766,7 +2766,7 @@ technologies = {
 		}
 	}
 	infra_works = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = naval_base
@@ -2824,7 +2824,7 @@ technologies = {
 		
 	}
 	rail_infra = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		production_speed_rail_way_factor = 0.02
 		line_change_production_efficiency_factor = 0.025
@@ -2862,7 +2862,7 @@ technologies = {
 		
 	}
 	road_infra = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		on_research_complete = {
 			set_temp_variable = { tech = token:road_infra }
@@ -2901,7 +2901,7 @@ technologies = {
 		
 	}
 	air_infra = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = air_base
@@ -2946,7 +2946,7 @@ technologies = {
 		}
 	}
 	port_infra = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = dockyard
@@ -2993,7 +2993,7 @@ technologies = {
 		}
 	}
 	civ_works = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		stability_weekly = 0.001
 		food_need_civilian = 0.005
@@ -3049,7 +3049,7 @@ technologies = {
 		}
 	}
 	housing_work = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		conscription = 0.0005
 		production_speed_industrial_complex_factor = 0.03
@@ -3086,7 +3086,7 @@ technologies = {
 		}
 	}
 	hospital_work = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		attrition = -0.03 #take 3% less attrition losses
 
@@ -3123,7 +3123,7 @@ technologies = {
 		}
 	}
 	schools_work = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		training_time_army_factor = -0.04
 
@@ -3161,7 +3161,7 @@ technologies = {
 	}
 # Construction II
 	construction2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = industrial_complex
@@ -3221,7 +3221,7 @@ technologies = {
 		}
 	}
 	defence_works2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = bunker
@@ -3278,7 +3278,7 @@ technologies = {
 		}
 	}
 	aa_emplacement_construction2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		production_speed_anti_air_building_factor = 0.08
 		power_plant_resilience = 0.08
@@ -3325,7 +3325,7 @@ technologies = {
 		}
 	}
 	pre_fab2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		land_bunker_effectiveness_factor = 0.05
 		coastal_bunker_effectiveness_factor = 0.05
 		production_speed_bunker_factor = 0.06
@@ -3367,7 +3367,7 @@ technologies = {
 		}
 	}
 	infra_works2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = naval_base
@@ -3428,7 +3428,7 @@ technologies = {
 	}
 
 	rail_infra2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		production_speed_rail_way_factor = 0.02
 		line_change_production_efficiency_factor = 0.035
@@ -3470,7 +3470,7 @@ technologies = {
 		}
 	}
 	road_infra2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		org_loss_when_moving = -0.03
 		production_speed_infrastructure_factor = 0.02
@@ -3519,7 +3519,7 @@ technologies = {
 		}
 	}
 	air_infra2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = air_base
@@ -3568,7 +3568,7 @@ technologies = {
 		}
 	}
 	port_infra2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = dockyard
@@ -3620,7 +3620,7 @@ technologies = {
 		
 	}
 	civ_works2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		civilian_fuel_use_factor = 0.01
 		food_need_civilian = 0.01
 		path = {
@@ -3679,7 +3679,7 @@ technologies = {
 		}
 	}
 	housing_work2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		dependencies = {
 			housing_work = 1
@@ -3720,7 +3720,7 @@ technologies = {
 		
 	}
 	hospital_work2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		attrition = -0.03 #take 3% less attrition losses
 
@@ -3761,7 +3761,7 @@ technologies = {
 		}
 	}
 	schools_work2 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		training_time_army_factor = -0.04
 
@@ -3804,7 +3804,7 @@ technologies = {
 	######################
 	### Construction III
 	construction3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = industrial_complex
@@ -3863,7 +3863,7 @@ technologies = {
 		}
 	}
 	defence_works3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = bunker
@@ -3918,7 +3918,7 @@ technologies = {
 		}
 	}
 	aa_emplacement_construction3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		dependencies = {
 			aa_emplacement_construction2 = 1
@@ -3965,7 +3965,7 @@ technologies = {
 		}
 	}
 	pre_fab3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		land_bunker_effectiveness_factor = 0.05
 		coastal_bunker_effectiveness_factor = 0.05
 		production_speed_bunker_factor = 0.06
@@ -4007,7 +4007,7 @@ technologies = {
 		}
 	}
 	infra_works3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = naval_base
@@ -4070,7 +4070,7 @@ technologies = {
 	}
 
 	rail_infra3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		production_speed_rail_way_factor = 0.04
 		line_change_production_efficiency_factor = 0.045
@@ -4112,7 +4112,7 @@ technologies = {
 		}
 	}
 	road_infra3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		
 		org_loss_when_moving = -0.04
@@ -4162,7 +4162,7 @@ technologies = {
 		}
 	}
 	air_infra3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = air_base
@@ -4212,7 +4212,7 @@ technologies = {
 		}
 	}
 	port_infra3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = dockyard
@@ -4263,7 +4263,7 @@ technologies = {
 		}
 	}
 	civ_works3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		path = {
 			leads_to_tech = housing_work3
@@ -4326,7 +4326,7 @@ technologies = {
 		}
 	}
 	housing_work3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		dependencies = {
 			housing_work2 = 1
@@ -4369,7 +4369,7 @@ technologies = {
 		}
 	}
 	hospital_work3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		attrition = -0.03 #take 3% less attrition losses
 
@@ -4410,7 +4410,7 @@ technologies = {
 		}
 	}
 	schools_work3 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		training_time_army_factor = -0.04
 
@@ -4451,7 +4451,7 @@ technologies = {
 		}
 	}
 	fm_radio = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		encryption_factor = -0.015
 		political_power_factor = 0.07
@@ -4495,7 +4495,7 @@ technologies = {
 	#####################
 	### Construction IV
 	construction4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = industrial_complex
@@ -4552,7 +4552,7 @@ technologies = {
 		}
 	}
 	defence_works4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = bunker
@@ -4608,7 +4608,7 @@ technologies = {
 		}
 	}
 	aa_emplacement_construction4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		dependencies = {
 			aa_emplacement_construction3 = 1
@@ -4655,7 +4655,7 @@ technologies = {
 		}
 	}
 	pre_fab4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		land_bunker_effectiveness_factor = 0.05
 		coastal_bunker_effectiveness_factor = 0.05
 		production_speed_bunker_factor = 0.06
@@ -4697,7 +4697,7 @@ technologies = {
 		}
 	}
 	infra_works4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = naval_base
@@ -4762,7 +4762,7 @@ technologies = {
 		}
 	}
 	modern_highways = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		reassignment_duration_factor = -0.20
 		org_loss_when_moving = -0.025
@@ -4793,7 +4793,7 @@ technologies = {
 		}
 	}
 	rail_infra4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		production_speed_rail_way_factor = 0.04
 		line_change_production_efficiency_factor = 0.055
@@ -4835,7 +4835,7 @@ technologies = {
 		}
 	}
 	road_infra4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		org_loss_when_moving = -0.05
 		production_speed_infrastructure_factor = 0.04
@@ -4884,7 +4884,7 @@ technologies = {
 		}
 	}
 	air_infra4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = air_base
@@ -4934,7 +4934,7 @@ technologies = {
 		}
 	}
 	port_infra4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = dockyard
@@ -4985,7 +4985,7 @@ technologies = {
 		}
 	}
 	civ_works4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		path = {
 			leads_to_tech = housing_work4
@@ -5044,7 +5044,7 @@ technologies = {
 		}
 	}
 	housing_work4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		dependencies = {
 			housing_work3 = 1
@@ -5086,7 +5086,7 @@ technologies = {
 		}
 	}
 	hospital_work4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		attrition = -0.04 #take 3% less attrition losses
 
@@ -5127,7 +5127,7 @@ technologies = {
 		}
 	}
 	schools_work4 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		training_time_factor = -0.04
 
@@ -5170,7 +5170,7 @@ technologies = {
 	############################
 	##### Construction V
 	construction5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = industrial_complex
@@ -5225,7 +5225,7 @@ technologies = {
 
 	# Defenses V
 	defence_works5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = bunker
@@ -5282,7 +5282,7 @@ technologies = {
 		}
 	}
 	aa_emplacement_construction5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		dependencies = {
 			aa_emplacement_construction4 = 1
@@ -5329,7 +5329,7 @@ technologies = {
 		}
 	}
 	pre_fab5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		land_bunker_effectiveness_factor = 0.05
 		coastal_bunker_effectiveness_factor = 0.05
 		production_speed_bunker_factor = 0.06
@@ -5372,7 +5372,7 @@ technologies = {
 	}
 	# Infrastructure V
 	infra_works5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		production_speed_infrastructure_factor = 0.07
 		production_speed_rail_way_factor = 0.07
@@ -5429,7 +5429,7 @@ technologies = {
 		}
 	}
 	rail_infra5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		production_speed_rail_way_factor = 0.08
 		line_change_production_efficiency_factor = 0.065
@@ -5471,7 +5471,7 @@ technologies = {
 		}
 	}
 	road_infra5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		org_loss_when_moving = -0.05
 		production_speed_infrastructure_factor = 0.08
@@ -5520,7 +5520,7 @@ technologies = {
 		}
 	}
 	air_infra5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = air_base
@@ -5570,7 +5570,7 @@ technologies = {
 		}
 	}
 	port_infra5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 		
 		enable_building = {
 			building = dockyard
@@ -5622,7 +5622,7 @@ technologies = {
 	}
 	##### Civilian works V
 	civ_works5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		path = {
 			leads_to_tech = housing_work5
@@ -5682,7 +5682,7 @@ technologies = {
 		}
 	}
 	housing_work5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		dependencies = {
 			housing_work4 = 1
@@ -5724,7 +5724,7 @@ technologies = {
 		}
 	}
 	hospital_work5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		attrition = -0.04 #take 3% less attrition losses
 
@@ -5765,7 +5765,7 @@ technologies = {
 		}
 	}
 	schools_work5 = {
-		allow = { has_country_flag = UNLOCK:industry_folder } 
+
 
 		training_time_factor = -0.04
 
