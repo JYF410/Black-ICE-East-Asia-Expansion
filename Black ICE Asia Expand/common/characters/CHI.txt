@@ -1,10 +1,13 @@
-characters = {
-	#蒋介石#
+characters={
+	#蒋介石
 	CHI_chiang_kaishek = {
 		name = CHI_chiang_kaishek
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CHI/Portrait_CHI_Chiang_Kai_Shek_politics.dds"
+			}
+			army = {
+				large = "gfx/leaders/CHI/Portrait_CHI_jiang_jieshi.dds"
 			}
 			army = {
 				small = "gfx/interface/ideas/CHI/idea_generic_Jiang_Jieshi.dds"
@@ -40,9 +43,17 @@ characters = {
 			traits = {
 				supreme_com_political
 			}
+		}
+		field_marshal = {
+			traits = { politically_connected logistics_wizard_FM_III }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 2401
 		}		
 	}
-	#徐傅霖#
 	CHI_xu_fulin = {
 		name = CHI_xu_fulin
 		portraits = {
@@ -54,7 +65,6 @@ characters = {
 			}
 		}
 	}
-	#朱德#
 	CHI_zhu_de = {
 		name = CHI_zhu_de
 		portraits = {
@@ -94,7 +104,6 @@ characters = {
 			}
 		}
 	}
-	#冯玉祥#
 	CHI_feng_yuxiang = {
 		name = CHI_feng_yuxiang
 		portraits = {
@@ -103,7 +112,6 @@ characters = {
 			# }
 		}
 	}
-	#汪精卫#
 	CHI_wang_jingwei = {
 		name = CHI_wang_jingwei
 		portraits = {
@@ -112,7 +120,6 @@ characters = {
 			}
 		}
 	}
-	#张澜#
 	CHI_zhang_lan = {
 		name = CHI_zhang_lan
 		portraits = {
@@ -127,8 +134,7 @@ characters = {
 			id = -1
 		}
 	}
-	##陆军将领##
-	#杜聿明#
+	#杜聿明
 	CHI_du_yuming = {
 		name = CHI_du_yuming
 		portraits = {
@@ -161,16 +167,15 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { trait_cautious harsh_leader }
+			traits = { trait_cautious harsh_leader armor_officer defensive_doctrine_FM }
 			skill = 3
-			attack_skill = 2
+			attack_skill = 3
 			defense_skill = 3
 			planning_skill = 2
 			logistics_skill = 2
 			legacy_id = 2401
 		}
-	}
-	#薛岳#
+	}	
 	CHI_xue_yue = {
 		name = CHI_xue_yue
 		portraits = {
@@ -182,16 +187,16 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { brilliant_strategist war_hero }
+			traits = { brilliant_strategist trait_reckless war_hero offensive_doctrine_FM }
 			skill = 2
-			attack_skill = 1
+			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 1
 			legacy_id = 2402
 		}
 	}
-	#戴安澜#
+	#戴安澜
 	CHI_tai_anlan = {
 		name = CHI_tai_anlan
 		portraits = {
@@ -203,7 +208,7 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { career_officer trait_reckless }
+			traits = { career_officer trait_reckless offensive_doctrine_FM }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -212,7 +217,6 @@ characters = {
 			legacy_id = 2403
 		}
 	}
-	#王耀武#
 	CHI_wang_yaowu = {
 		name = CHI_wang_yaowu
 		portraits = {
@@ -224,7 +228,7 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { trait_cautious infantry_officer }
+			traits = { trait_cautious infantry_officer defensive_doctrine_FM }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -233,7 +237,7 @@ characters = {
 			legacy_id = 2404
 		}
 	}
-	#孙立人#
+	#孙立人
 	CHI_sun_li_jen = {
 		name = CHI_sun_li_jen
 		portraits = {
@@ -304,7 +308,7 @@ characters = {
 			legacy_id = 2406
 		}
 	}
-	#于学忠#
+	#于学忠
 	CHI_yu_xuezhong = {
 		name = CHI_yu_xuezhong
 		portraits = {
@@ -314,15 +318,13 @@ characters = {
 		}
 		corps_commander = {
 			traits = { infantry_officer winter_3 }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
+			attack_skill = 2
+			defense_skill = 2
 			planning_skill = 1
-			logistics_skill = 1
-			legacy_id = -1
+			logistics_skill = 2
+			skill = 2
 		}
 	}
-	#胡宗南#
 	CHI_hu_zongnan = {
 		name = CHI_hu_zongnan
 		portraits = {
@@ -343,7 +345,6 @@ characters = {
 			legacy_id = 2407
 		}
 	}
-	#顾祝同#
 	CHI_gu_zhutong = {
 		name = CHI_gu_zhutong
 		portraits = {
@@ -364,7 +365,6 @@ characters = {
 			legacy_id = 2408
 		}
 	}
-	#卫立煌#
 	CHI_wei_lihuang = {
 		name = CHI_wei_lihuang
 		portraits = {
@@ -377,15 +377,35 @@ characters = {
 		}
 		corps_commander = {
 			traits = { infantry_officer }
-			skill = 3
+			skill = 2
 			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
+			defense_skill = 2
+			planning_skill = 2
 			logistics_skill = 1
 			legacy_id = 2409
 		}
 	}
-	#汤恩伯#
+	CHI_fu_zuoyi = {
+		name = CHI_fu_zuoyi
+		portraits = {
+			army = {
+				small = "GFX_portrait_chi_fu_zuoyi_small"
+			}
+			army = {
+				large = "GFX_portrait_chi_fu_zuoyi"
+			}
+		}
+		corps_commander = {
+			traits = {}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 2410
+		}
+	}
+	#汤恩伯
 	CHI_tang_enbo = {
 		name = CHI_tang_enbo
 		portraits = {
@@ -394,16 +414,16 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits = { }
+			traits = { trait_cautious }
 			skill = 2
-			attack_skill = 2
+			attack_skill = 1
 			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = -1
 		}
 	}
-    #邱清泉#
+    #邱清泉
 	CHI_qiu_qingquan={
 		name=CHI_qiu_qingquan
 		portraits={
@@ -421,7 +441,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#蒋纬国#
+	#蒋纬国
 	CHI_jiang_weiguo={
 		name=CHI_jiang_weiguo
 		portraits={
@@ -430,16 +450,16 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={ armor_officer }
+			traits={ armor_officer politically_connected }
 			skill=1
 			attack_skill=1
 			defense_skill=1
 			planning_skill=1
-			logistics_skill=1
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
-	#廖耀湘#
+	#廖耀湘
 	CHI_liao_yaoxiang={
 		name=CHI_liao_yaoxiang
 		portraits={
@@ -457,7 +477,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#张灵甫#
+	#张灵甫
 	CHI_zhang_lingfu={
 		name=CHI_zhang_lingfu
 		portraits={
@@ -475,7 +495,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#郑洞国#
+	#郑洞国
 	CHI_zheng_dongguo={
 		name=CHI_zheng_dongguo
 		portraits={
@@ -493,7 +513,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#刘峙#
+	#刘峙
 	CHI_liu_zhi={
 		name=CHI_liu_zhi
 		portraits={
@@ -511,7 +531,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#马占山#
+	#马占山
 	CHI_ma_zhanshan = {
 		name = CHI_ma_zhanshan
 		portraits = {
@@ -529,7 +549,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#张治中#
+	#张治中
 	CHI_zhang_zhizhong = {
 		name = CHI_zhang_zhizhong
 		portraits = {
@@ -547,7 +567,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#宋希濂#
+	#宋希濂
 	CHI_song_xilian={
 		name=CHI_song_xilian
 		portraits={
@@ -565,7 +585,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#黄百韬#
+	#黄百韬
 	CHI_huang_baitao={
 		name=CHI_huang_baitao
 		portraits={
@@ -583,7 +603,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#朱培德#
+	#朱培德
 	CHI_zhu_peide={
 		name=CHI_zhu_peide
 		portraits={
@@ -601,7 +621,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#蔡廷锴#
+	#蔡廷锴
 	CHI_cai_tingkai={
 		name=CHI_cai_tingkai
 		portraits={
@@ -619,7 +639,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#孙元良#
+	#孙元良
 	CHI_sun_yuanliang={
 		name=CHI_sun_yuanliang
 		portraits={
@@ -637,7 +657,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#李延年#
+	#李延年
 	CHI_li_yannian={
 		name=CHI_li_yannian
 		portraits={
@@ -655,7 +675,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#关麟征#
+	#关麟征
 	CHI_guan_linzheng={
 		name=CHI_guan_linzheng
 		portraits={
@@ -665,22 +685,16 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={ 
-				career_officer
-				trait_reckless
-				infantry_leader
-				war_hero
-			 }
-
 			skill=1
 			attack_skill=1
 			defense_skill=1
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=-1
+			traits={ infantry_leader }
 		}
 	}
-	#胡琏#
+	#胡琏
 	CHI_hu_lian={
 		name=CHI_hu_lian
 		portraits={
@@ -689,16 +703,16 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={ brilliant_strategist career_officer naval_liason }
+			traits={ brilliant_strategist naval_liason }
 			skill = 2
 			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
+			defense_skill = 1
+			planning_skill = 2
 			logistics_skill = 1
 			legacy_id=-1
 		}
 	}
-	#方先觉#
+	#方先觉
 	CHI_fang_xianjue={
 		name=CHI_fang_xianjue
 		portraits={
@@ -707,16 +721,16 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={ career_officer inflexible_strategist war_hero }
 			skill=1
 			attack_skill=1
 			defense_skill=1
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=-1
+			traits={ inflexible_strategist }
 		}
 	}
-    #罗卓英#
+    #罗卓英
 	CHI_luo_zhuoying={
 		name=CHI_luo_zhuoying
 		portraits={
@@ -734,7 +748,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#李弥#
+	#李弥
 	CHI_li_mi={
 		name=CHI_li_mi
 		portraits={
@@ -743,16 +757,16 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={  }
+			traits={ urban_assault_specialist }
 			skill=1
 			attack_skill=1
-			defense_skill=1
+			defense_skill=2
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=-1
 		}
 	}
-	#蒋鼎文#
+	#蒋鼎文
 	CHI_jiang_dingwen={
 		name=CHI_jiang_dingwen
 		portraits={
@@ -770,7 +784,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#钱大钧#
+	#钱大钧
 	CHI_qian_dajun={
 		name=CHI_qian_dajun
 		portraits={
@@ -788,7 +802,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#徐庭瑶#
+	#徐庭瑶
 	CHI_xu_tingyao={
 		name=CHI_xu_tingyao
 		portraits={
@@ -806,7 +820,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#熊式辉#
+	#熊式辉
 	CHI_xiong_shihui={
 		name=CHI_xiong_shihui
 		portraits={
@@ -824,7 +838,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#李玉堂#
+	#李玉堂
 	CHI_li_yutang={
 		name=CHI_li_yutang
 		portraits={
@@ -842,7 +856,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	#范汉杰#
+	#范汉杰
 	CHI_fan_hanjie={
 		name=CHI_fan_hanjie
 		portraits={
@@ -860,8 +874,816 @@ characters = {
 			legacy_id=-1
 		}
 	}
+	#黄维
+	CHI_huang_wei={
+		name=CHI_huang_wei
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_CHI_huang_wei.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	#杨伯涛
+	CHI_yang_botao={
+		name=CHI_yang_botao
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_yang_botao.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CHI_zhang_wupen = {
+		name = CHI_zhang_wupen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate
+			expire = "1947.1.1.12"
+			id = -1
+		}
+	}
+	CHI_wen_genzhou = {
+		name = CHI_wen_genzhou
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+			}
+		}
+		country_leader = {
+			ideology = dem_party_us
+			traits = { resource_industrialist }
+			expire = "1947.1.1.12"
+			id = -1
+		}
+	}
+	CHI_liao_wupen = {
+		name = CHI_liao_wupen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+			}
+		}
+		country_leader = {
+			ideology = pacifist
+			expire = "1948.1.1.12"
+			id = -1
+		}
+	}
+	CHI_wan_gao = {
+		name = CHI_wan_gao
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			}
+		}
+		country_leader = {
+			ideology = emiratism
+			traits = { ambitious }
+			expire = "1949.1.1.12"
+			id=-1
+		}
+	}
+	CHI_kwong_jiang = {
+		name = CHI_kwong_jiang
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_asia_4"
+			}
+		}
+		advisor = {		
+			slot = head_of_state
+			idea_token = CHI_kwong_jiang_head_of_state
+			on_add = {
+				set_temp_variable = { character = token:CHI_kwong_jiang}
+				set_temp_variable = { slot = token:head_of_state}
 
-	##海军将领##
+				head_of_state_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_kwong_jiang}
+				set_temp_variable = { slot = token:head_of_state}
+
+				head_of_state_on_remove_effect = yes
+			} 
+			available = {
+				has_completed_focus = KMT_democratic_republic				
+			}
+			
+			traits = {
+				liberal_reformer
+			}
+		}
+	}
+	CHI_lin_sen = {
+		name = CHI_lin_sen
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor_asia_13
+			}
+		}
+		advisor = {
+			slot = head_of_state
+			idea_token = CHI_lin_sen_head_of_state
+			on_add = {
+				set_temp_variable = { character = token:CHI_lin_sen}
+				set_temp_variable = { slot = token:head_of_state}
+
+				head_of_state_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_lin_sen}
+				set_temp_variable = { slot = token:head_of_state}
+
+				head_of_state_on_remove_effect = yes
+			} 
+			allowed = {
+				original_tag = CHI
+				has_dlc = "Waking the Tiger"
+			}
+			
+			traits = {
+				elder_statesman
+			}
+		}
+	}
+	CHI_chen_yi = {
+		name = CHI_chen_yi
+		portraits = {
+			army = {
+				small = GFX_idea_chi_chen_yi
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = CHI_chen_yi_foreign_minister
+			on_add = {
+				set_temp_variable = { character = token:CHI_chen_yi}
+				set_temp_variable = { slot = token:foreign_minister}
+
+				foreign_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_chen_yi}
+				set_temp_variable = { slot = token:foreign_minister}
+
+				foreign_minister_on_remove_effect = yes
+			} 
+			
+			traits = {
+				compassionate_gentleman
+ 
+			}
+		}
+	}
+	CHI_soong_ml = {
+		name = CHI_soong_ml
+		portraits = {
+			army = {
+				small = GFX_idea_soong_mei_ling
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = CHI_soong_ml_foreign_minister
+			on_add = {
+				set_temp_variable = { character = token:CHI_soong_ml}
+				set_temp_variable = { slot = token:foreign_minister}
+
+				foreign_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_soong_ml}
+				set_temp_variable = { slot = token:foreign_minister}
+
+				foreign_minister_on_remove_effect = yes
+			} 
+			
+			traits = {
+				organizer smooth_talking_charmer
+ 
+			}
+		}
+	}
+	CHI_zhang_qun = {
+		name = CHI_zhang_qun
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor_asia_5
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = CHI_zhang_qun_foreign_minister
+			on_add = {
+				set_temp_variable = { character = token:CHI_zhang_qun}
+				set_temp_variable = { slot = token:foreign_minister}
+
+				foreign_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_zhang_qun}
+				set_temp_variable = { slot = token:foreign_minister}
+
+				foreign_minister_on_remove_effect = yes
+			} 
+			
+			traits = {
+				tough_negotiator
+ 
+			}
+		}
+	}
+	CHI_gu_zhenggang = {
+		name = CHI_gu_zhenggang
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor_asia_4
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = CHI_gu_zhenggang_foreign_minister
+			on_add = {
+				set_temp_variable = { character = token:CHI_gu_zhenggang}
+				set_temp_variable = { slot = token:foreign_minister}
+
+				foreign_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_gu_zhenggang}
+				set_temp_variable = { slot = token:foreign_minister}
+
+				foreign_minister_on_remove_effect = yes
+			} 
+			
+			traits = {
+				policy_expert
+ 
+			}
+		}
+	}
+	CHI_ju_zheng = {
+		name = CHI_ju_zheng
+		portraits = {
+			civilian = {
+				large = GFX_idea_generic_political_advisor_asia_4
+			}
+		}
+	}
+	CHI_dai_li = {
+		name = CHI_dai_li
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor_asia_7
+			}
+		}
+		advisor = {
+			slot = interior_minister
+			idea_token = CHI_dai_li_interior_minister
+			on_add = {
+				set_temp_variable = { character = token:CHI_dai_li}
+				set_temp_variable = { slot = token:interior_minister}
+
+				interior_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_dai_li}
+				set_temp_variable = { slot = token:interior_minister}
+
+				interior_minister_on_remove_effect = yes
+			} 
+			
+			traits = {
+				prince_of_terror
+			}
+		}
+	}
+	CHI_liu_luyin = {
+		name = CHI_liu_luyin
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor_asia_5
+			}
+		}
+		advisor = {
+			slot = interior_minister
+			idea_token = CHI_liu_luyin_interior_minister
+			on_add = {
+				set_temp_variable = { character = token:CHI_liu_luyin}
+				set_temp_variable = { slot = token:interior_minister}
+
+				interior_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_liu_luyin}
+				set_temp_variable = { slot = token:interior_minister}
+
+				interior_minister_on_remove_effect = yes
+			} 
+			
+			traits = {
+				propaganda_expert
+
+			}
+		}
+	}
+	CHI_chen_guofu = {
+		name = CHI_chen_guofu
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor_asia_7
+			}
+		}
+		advisor = {
+			slot = interior_minister
+			idea_token = CHI_chen_guofu_interior_minister
+			on_add = {
+				set_temp_variable = { character = token:CHI_chen_guofu}
+				set_temp_variable = { slot = token:interior_minister}
+
+				interior_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_chen_guofu}
+				set_temp_variable = { slot = token:interior_minister}
+
+				interior_minister_on_remove_effect = yes
+			} 
+			
+			traits = {
+				backroom_backstabber
+			}
+		}
+	}
+	CHI_du_yuesheng = {
+		name = CHI_du_yuesheng
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor_asia_1
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_du_yuesheng_political_advisor
+			on_add = {
+				set_temp_variable = { character = token:CHI_du_yuesheng}
+				set_temp_variable = { slot = token:political_advisor}
+
+				political_advisor_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_du_yuesheng}
+				set_temp_variable = { slot = token:political_advisor}
+
+				political_advisor_on_remove_effect = yes
+			} 
+			
+			traits = {
+				clandestine_contacts
+			}
+		}
+	}
+	CHI_deng_xiaoping = {
+		name = CHI_deng_xiaoping
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor_asia_12
+			}
+		}
+		advisor = {
+			slot = economic_minister
+			idea_token = CHI_deng_xiaoping_economic_minister
+			on_add = {
+				set_temp_variable = { character = token:CHI_deng_xiaoping}
+				set_temp_variable = { slot = token:economic_minister}
+
+				economic_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_deng_xiaoping}
+				set_temp_variable = { slot = token:economic_minister}
+
+				economic_minister_on_remove_effect = yes
+			} 
+			
+			traits = {
+				industrial_planner
+
+			}
+		}
+	}
+	CHI_h_h_kung = {
+		name = CHI_h_h_kung
+		portraits = {
+			army = {
+				small = GFX_idea_chi_h_h_kung
+			}
+		}
+		advisor = {
+			slot = economic_minister
+			idea_token = CHI_h_h_kung_economic_minister			
+			on_add = {
+				set_temp_variable = { character = token:CHI_h_h_kung}
+				set_temp_variable = { slot = token:economic_minister}
+
+				economic_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_h_h_kung}
+				set_temp_variable = { slot = token:economic_minister}
+
+				economic_minister_on_remove_effect = yes
+			} 
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = {
+				captain_of_industry
+
+			}
+		}
+	}
+	CHI_t_v_soong = {
+		name = CHI_t_v_soong
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor_asia_2
+			}
+		}
+		advisor = {
+			slot = economic_minister
+			idea_token = CHI_t_v_soong_economic_minister
+		on_add = {
+			set_temp_variable = { character = token:CHI_t_v_soong}
+			set_temp_variable = { slot = token:economic_minister}
+
+			economic_minister_on_add_effect = yes
+		} 
+		on_remove = {
+			set_temp_variable = { character = token:CHI_t_v_soong}
+			set_temp_variable = { slot = token:economic_minister}
+
+			economic_minister_on_remove_effect = yes
+		} 
+			available = {
+				has_completed_focus = KMT_monetary_reform
+			}
+			
+			traits = {
+				financial_expert
+			}
+		}
+	}
+	CHI_lu_zuofu = {
+		name = CHI_lu_zuofu
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor_asia_13
+			}
+		}
+		advisor = {
+			slot = domestic_minister
+			idea_token = CHI_lu_zuofu_domestic_minister
+			on_add = {
+				set_temp_variable = { character = token:CHI_lu_zuofu}
+				set_temp_variable = { slot = token:domestic_minister}
+
+				domestic_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_lu_zuofu}
+				set_temp_variable = { slot = token:domestic_minister}
+
+				domestic_minister_on_remove_effect = yes
+			} 
+			
+			traits = {
+				industrial_planner
+			}
+		}
+	}
+	CHI_qian_changzhao = {
+		name = CHI_qian_changzhao
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor_asia_14
+			}
+		}
+		advisor = {
+			slot = domestic_minister
+			idea_token = CHI_qian_changzhao_domestic_minister
+			on_add = {
+				set_temp_variable = { character = token:CHI_qian_changzhao}
+				set_temp_variable = { slot = token:domestic_minister}
+
+				domestic_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_qian_changzhao}
+				set_temp_variable = { slot = token:domestic_minister}
+
+				domestic_minister_on_remove_effect = yes
+			} 
+			
+			traits = {
+				domestminster_industry
+			}
+		}
+	}
+	CHI_chen_lifu = {
+		name = CHI_chen_lifu
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor_asia_6
+			}
+		}
+		advisor = {
+			slot = domestic_minister
+			idea_token = CHI_chen_lifu_domestic_minister
+			on_add = {
+				set_temp_variable = { character = token:CHI_chen_lifu}
+				set_temp_variable = { slot = token:domestic_minister}
+
+				domestic_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_chen_lifu}
+				set_temp_variable = { slot = token:domestic_minister}
+
+				domestic_minister_on_remove_effect = yes
+			} 
+			
+			traits = { 
+				mining_bonus
+				domestminster_education
+			}
+		}
+	}
+	CHI_xie_juezai = {
+		name = CHI_xie_juezai
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor_asia_1
+			}
+		}
+		advisor = {
+			slot = political_minister
+			idea_token = CHI_xie_juezai_political_minister
+			on_add = {
+				set_temp_variable = { character = token:CHI_xie_juezai}
+				set_temp_variable = { slot = token:political_minister}
+
+				political_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_xie_juezai}
+				set_temp_variable = { slot = token:political_minister}
+
+				political_minister_on_remove_effect = yes
+			} 
+			
+			traits = {
+				righthand_man
+			}
+		}
+	}
+	CHI_chiang_ching_kuo = {
+		name = CHI_chiang_ching_kuo
+		portraits = {
+			army = {
+				small = GFX_idea_chi_chiang_ching_kuo
+			}
+		}
+		advisor = {
+			slot = political_minister
+			idea_token = CHI_chiang_ching_kuo_political_minister
+			on_add = {
+				set_temp_variable = { character = token:CHI_chiang_ching_kuo}
+				set_temp_variable = { slot = token:political_minister}
+
+				political_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_chiang_ching_kuo}
+				set_temp_variable = { slot = token:political_minister}
+
+				political_minister_on_remove_effect = yes
+			} 
+			available = {
+				if = {
+					limit = {
+						has_government = neutrality
+					}
+					has_country_leader = { ruling_only = yes character = CHI_chiang_kaishek }
+				}
+			}
+			
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+	CHI_soong_mei_ling = {
+		name = CHI_soong_mei_ling
+		gender = female
+		portraits = {
+			army = {
+				small = GFX_idea_soong_mei_ling
+			}
+		}
+		advisor = {
+			slot = political_minister
+			idea_token = CHI_soong_mei_ling_political_minister
+			on_add = {
+				set_temp_variable = { character = token:CHI_soong_mei_ling}
+				set_temp_variable = { slot = token:political_minister}
+
+				political_minister_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_soong_mei_ling}
+				set_temp_variable = { slot = token:political_minister}
+
+				political_minister_on_remove_effect = yes
+			} 
+			available = {
+				has_country_leader = { ruling_only = yes character = CHI_chiang_kaishek }
+			}
+			allowed = {
+				has_dlc = "Waking the Tiger"
+			}
+			traits = { 
+				neutral
+				first_lady 
+			}
+		}
+	}
+	#Nationalist
+	#李宗仁
+	CHI_li_zongren = {
+		name = CHI_li_zongren
+		portraits = {
+			civilian={
+				large="gfx/leaders/GXC/Portrait_Li_Zongren.dds"
+			}
+			army={
+				large="gfx/leaders/GXC/Portrait_Li_Zongren.dds"
+			}
+			army={
+				small="gfx/interface/ideas/GXC/idea_generic_Li_Zongren.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = CHI_li_zongren_army_chief
+			on_add = {
+				set_temp_variable = { character = token:CHI_li_zongren}
+				set_temp_variable = { slot = token:army_chief}
+
+				army_chief_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_li_zongren}
+				set_temp_variable = { slot = token:army_chief}
+
+				army_chief_on_remove_effect = yes
+			} 
+			
+			traits = { 
+				neutral
+				army_chief_defensive_3 
+
+			}
+		}
+	}
+	#何应钦
+	CHI_he_yingqin = {
+		name = CHI_he_yingqin
+		portraits = {
+			army = {
+				small = gfx/interface/ideas/idea_generic_army_asia_1.dds
+			}
+			army = {
+				large = "gfx/leaders/CHI/portrait_chi_he_yingqin.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = CHI_he_yingqin_army_chief
+			on_add = {
+				set_temp_variable = { character = token:CHI_he_yingqin}
+				set_temp_variable = { slot = token:army_chief}
+
+				army_chief_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_he_yingqin}
+				set_temp_variable = { slot = token:army_chief}
+
+				army_chief_on_remove_effect = yes
+			} 
+			
+			traits = {
+				army_chief_maneuver_2
+
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	#army_aviation_doctrine
+	#Clique
+	#王叔铭
+	CHI_wang_shuming = {
+		name = CHI_wang_shuming
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/CHI/idea_generic_Wang_Shuming.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = CHI_wang_shuming_air_chief
+			on_add = {
+				set_temp_variable = { character = token:CHI_wang_shuming}
+				set_temp_variable = { slot = token:air_chief}
+
+				air_chief_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_wang_shuming}
+				set_temp_variable = { slot = token:air_chief}
+
+				air_chief_on_remove_effect = yes
+			} 
+			
+			traits = {
+				liberal
+				air_chief_ground_support_2
+
+			}
+		}
+	}
+	#周至柔
+	CHI_zhou_zhirou = {
+		name = CHI_zhou_zhirou
+		portraits = {
+			army = {
+				small = gfx/interface/ideas/CHI/idea_generic_Zhou_Zhirou.dds
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = CHI_zhou_zhirou_air_chief
+			on_add = {
+				set_temp_variable = { character = token:CHI_zhou_zhirou}
+				set_temp_variable = { slot = token:air_chief}
+
+				air_chief_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_zhou_zhirou}
+				set_temp_variable = { slot = token:air_chief}
+
+				air_chief_on_remove_effect = yes
+			} 
+			
+			traits = {
+				air_chief_old_guard
+
+			}
+		}
+	}
+	#Nationalist
 	#陈绍宽
 	CHI_chen_shaokuan = {
 		name = CHI_chen_shaokuan
@@ -924,7 +1746,7 @@ characters = {
 			ledger = navy
 		}			
 		navy_leader = {
-			traits = { bold navy_career_officer aviation_enthusiast }
+			traits = { bold aviation_enthusiast }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -981,74 +1803,6 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	#桂永清
-	CHI_gui_yongqing = {
-		name = CHI_gui_yongqing
-		portraits = {
-			army = {
-				small = "gfx/interface/ideas/CHI/idea_generic_Gui_Yongqing.dds"
-			}
-			army = {
-				large = "gfx/leaders/CHI/Portrait_CHI_gui_yongqing.dds"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = CHI_gui_yongqing_high_command
-			on_add = {
-				set_temp_variable = { character = token:CHI_gui_yongqing}
-				set_temp_variable = { slot = token:high_command}
-
-				high_command_on_add_effect = yes
-			}
-			on_remove = {
-				set_temp_variable = { character = token:CHI_gui_yongqing}
-				set_temp_variable = { slot = token:high_command}
-
-				high_command_on_remove_effect = yes
-			} 
-			allowed = {
-				original_tag = CHI
-			}
-			available = {
-				#has_country_flag = can_high_command_navy
-				
-			}
-			traits = {
-				navy_chief_submarine_raider_doctrine
-			}
-			ledger = navy
-		}
-		advisor = {
-			slot = navy_chief
-			idea_token = CHI_gui_yongqing_navy_chief
-			on_add = {
-				set_temp_variable = { character = token:CHI_gui_yongqing}
-				set_temp_variable = { slot = token:navy_chief}
-
-				navy_chief_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_gui_yongqing}
-				set_temp_variable = { slot = token:navy_chief}
-
-				navy_chief_on_remove_effect = yes
-			} 
-			
-			traits = {
-				navy_chief_commerce_raiding_1
-			}
-		}		
-		navy_leader = {
-			traits = { bold }
-			skill = 1
-    		attack_skill = 1
-    		defense_skill = 1
-    		maneuvering_skill = 1
-    		coordination_skill = 1
-			legacy_id = -1
-		}
-	}
 	#陈策
 	CHI_chan_chak={
 		name=CHI_chan_chak
@@ -1067,800 +1821,6 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	##政治顾问##
-	##
-	CHI_zhang_wupen = {
-		name = CHI_zhang_wupen
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
-			}
-		}
-		country_leader = {
-			ideology = moderate
-			expire = "1947.1.1.12"
-			id = -1
-		}
-	}
-	##
-	CHI_wen_genzhou = {
-		name = CHI_wen_genzhou
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
-			}
-		}
-		country_leader = {
-			ideology = dem_party_us
-			traits = { resource_industrialist }
-			expire = "1947.1.1.12"
-			id = -1
-		}
-	}
-	##
-	CHI_liao_wupen = {
-		name = CHI_liao_wupen
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-			}
-		}
-		country_leader = {
-			ideology = pacifist
-			expire = "1948.1.1.12"
-			id = -1
-		}
-	}
-	##
-	CHI_wan_gao = {
-		name = CHI_wan_gao
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-			}
-		}
-		country_leader = {
-			ideology = emiratism
-			traits = { ambitious }
-			expire = "1949.1.1.12"
-			id=-1
-		}
-	}
-	##
-	CHI_kwong_jiang = {
-		name = CHI_kwong_jiang
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_asia_4"
-			}
-		}
-		advisor = {		
-			slot = head_of_state
-			idea_token = CHI_kwong_jiang_head_of_state
-			on_add = {
-				set_temp_variable = { character = token:CHI_kwong_jiang}
-				set_temp_variable = { slot = token:head_of_state}
-
-				head_of_state_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_kwong_jiang}
-				set_temp_variable = { slot = token:head_of_state}
-
-				head_of_state_on_remove_effect = yes
-			} 
-			available = {
-				has_completed_focus = KMT_democratic_republic				
-			}
-			
-			traits = {
-				liberal_reformer
-			}
-		}
-	}
-	##
-	CHI_lin_sen = {
-		name = CHI_lin_sen
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor_asia_13
-			}
-		}
-		advisor = {
-			slot = head_of_state
-			idea_token = CHI_lin_sen_head_of_state
-			on_add = {
-				set_temp_variable = { character = token:CHI_lin_sen}
-				set_temp_variable = { slot = token:head_of_state}
-
-				head_of_state_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_lin_sen}
-				set_temp_variable = { slot = token:head_of_state}
-
-				head_of_state_on_remove_effect = yes
-			} 
-			allowed = {
-				original_tag = CHI
-				has_dlc = "Waking the Tiger"
-			}
-			
-			traits = {
-				elder_statesman
-			}
-		}
-	}
-	#陈毅#
-	CHI_chen_yi = {
-		name = CHI_chen_yi
-		portraits = {
-			army = {
-				small = "gfx/interface/ideas/CHI/idea_generic_prc_Chen_Yi.dds"
-			}
-		}
-		advisor = {
-			slot = foreign_minister
-			idea_token = CHI_chen_yi_foreign_minister
-			on_add = {
-				set_temp_variable = { character = token:CHI_chen_yi}
-				set_temp_variable = { slot = token:foreign_minister}
-
-				foreign_minister_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_chen_yi}
-				set_temp_variable = { slot = token:foreign_minister}
-
-				foreign_minister_on_remove_effect = yes
-			} 
-			
-			traits = {
-				compassionate_gentleman
- 
-			}
-		}
-	}
-	#宋美龄#
-	CHI_soong_ml = {
-		name = CHI_soong_ml
-		portraits = {
-			army = {
-				small = GFX_idea_soong_mei_ling
-			}
-		}
-		advisor = {
-			slot = foreign_minister
-			idea_token = CHI_soong_ml_foreign_minister
-			on_add = {
-				set_temp_variable = { character = token:CHI_soong_ml}
-				set_temp_variable = { slot = token:foreign_minister}
-
-				foreign_minister_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_soong_ml}
-				set_temp_variable = { slot = token:foreign_minister}
-
-				foreign_minister_on_remove_effect = yes
-			} 
-			
-			traits = {
-				organizer smooth_talking_charmer
- 
-			}
-		}
-	}
-	##
-	CHI_zhang_qun = {
-		name = CHI_zhang_qun
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor_asia_5
-			}
-		}
-		advisor = {
-			slot = foreign_minister
-			idea_token = CHI_zhang_qun_foreign_minister
-			on_add = {
-				set_temp_variable = { character = token:CHI_zhang_qun}
-				set_temp_variable = { slot = token:foreign_minister}
-
-				foreign_minister_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_zhang_qun}
-				set_temp_variable = { slot = token:foreign_minister}
-
-				foreign_minister_on_remove_effect = yes
-			} 
-			
-			traits = {
-				tough_negotiator
- 
-			}
-		}
-	}
-	##
-	CHI_gu_zhenggang = {
-		name = CHI_gu_zhenggang
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor_asia_4
-			}
-		}
-		advisor = {
-			slot = foreign_minister
-			idea_token = CHI_gu_zhenggang_foreign_minister
-			on_add = {
-				set_temp_variable = { character = token:CHI_gu_zhenggang}
-				set_temp_variable = { slot = token:foreign_minister}
-
-				foreign_minister_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_gu_zhenggang}
-				set_temp_variable = { slot = token:foreign_minister}
-
-				foreign_minister_on_remove_effect = yes
-			} 
-			
-			traits = {
-				policy_expert
- 
-			}
-		}
-	}
-	##
-	CHI_ju_zheng = {
-		name = CHI_ju_zheng
-		portraits = {
-			civilian = {
-				large = GFX_idea_generic_political_advisor_asia_4
-			}
-		}
-	}
-	##
-	CHI_dai_li = {
-		name = CHI_dai_li
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor_asia_7
-			}
-		}
-		advisor = {
-			slot = interior_minister
-			idea_token = CHI_dai_li_interior_minister
-			on_add = {
-				set_temp_variable = { character = token:CHI_dai_li}
-				set_temp_variable = { slot = token:interior_minister}
-
-				interior_minister_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_dai_li}
-				set_temp_variable = { slot = token:interior_minister}
-
-				interior_minister_on_remove_effect = yes
-			} 
-			
-			traits = {
-				prince_of_terror
-			}
-		}
-	}
-	##
-	CHI_liu_luyin = {
-		name = CHI_liu_luyin
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor_asia_5
-			}
-		}
-		advisor = {
-			slot = interior_minister
-			idea_token = CHI_liu_luyin_interior_minister
-			on_add = {
-				set_temp_variable = { character = token:CHI_liu_luyin}
-				set_temp_variable = { slot = token:interior_minister}
-
-				interior_minister_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_liu_luyin}
-				set_temp_variable = { slot = token:interior_minister}
-
-				interior_minister_on_remove_effect = yes
-			} 
-			
-			traits = {
-				propaganda_expert
-
-			}
-		}
-	}
-	##
-	CHI_chen_guofu = {
-		name = CHI_chen_guofu
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor_asia_7
-			}
-		}
-		advisor = {
-			slot = interior_minister
-			idea_token = CHI_chen_guofu_interior_minister
-			on_add = {
-				set_temp_variable = { character = token:CHI_chen_guofu}
-				set_temp_variable = { slot = token:interior_minister}
-
-				interior_minister_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_chen_guofu}
-				set_temp_variable = { slot = token:interior_minister}
-
-				interior_minister_on_remove_effect = yes
-			} 
-			
-			traits = {
-				backroom_backstabber
-			}
-		}
-	}
-	##
-	CHI_du_yuesheng = {
-		name = CHI_du_yuesheng
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor_asia_1
-			}
-		}
-		advisor = {
-			slot = intel_minister
-			idea_token = CHI_du_yuesheng_intel_minister
-			on_add = {
-				set_temp_variable = { character = token:CHI_du_yuesheng}
-				set_temp_variable = { slot = token:intel_minister}
-
-				intel_minister_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_du_yuesheng}
-				set_temp_variable = { slot = token:intel_minister}
-
-				intel_minister_on_remove_effect = yes
-			} 
-			
-			traits = {
-				clandestine_contacts
-			}
-		}
-	}
-	#邓小平#
-	CHI_deng_xiaoping = {
-		name = CHI_deng_xiaoping
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor_asia_12
-			}
-		}
-		advisor = {
-			slot = economic_minister
-			idea_token = CHI_deng_xiaoping_economic_minister
-			on_add = {
-				set_temp_variable = { character = token:CHI_deng_xiaoping}
-				set_temp_variable = { slot = token:economic_minister}
-
-				economic_minister_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_deng_xiaoping}
-				set_temp_variable = { slot = token:economic_minister}
-
-				economic_minister_on_remove_effect = yes
-			} 
-			
-			traits = {
-				industrial_planner
-
-			}
-		}
-	}
-	##
-	CHI_h_h_kung = {
-		name = CHI_h_h_kung
-		portraits = {
-			army = {
-				small = GFX_idea_chi_h_h_kung
-			}
-		}
-		advisor = {
-			slot = economic_minister
-			idea_token = CHI_h_h_kung_economic_minister			
-			on_add = {
-				set_temp_variable = { character = token:CHI_h_h_kung}
-				set_temp_variable = { slot = token:economic_minister}
-
-				economic_minister_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_h_h_kung}
-				set_temp_variable = { slot = token:economic_minister}
-
-				economic_minister_on_remove_effect = yes
-			} 
-			allowed = {
-				original_tag = CHI
-			}
-			
-			traits = {
-				captain_of_industry
-
-			}
-		}
-	}
-	##
-	CHI_t_v_soong = {
-		name = CHI_t_v_soong
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor_asia_2
-			}
-		}
-		advisor = {
-			slot = economic_minister
-			idea_token = CHI_t_v_soong_economic_minister
-		on_add = {
-			set_temp_variable = { character = token:CHI_t_v_soong}
-			set_temp_variable = { slot = token:economic_minister}
-
-			economic_minister_on_add_effect = yes
-		} 
-		on_remove = {
-			set_temp_variable = { character = token:CHI_t_v_soong}
-			set_temp_variable = { slot = token:economic_minister}
-
-			economic_minister_on_remove_effect = yes
-		} 
-			available = {
-				has_completed_focus = KMT_monetary_reform
-			}
-			
-			traits = {
-				financial_expert
-			}
-		}
-	}
-	##
-	CHI_lu_zuofu = {
-		name = CHI_lu_zuofu
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor_asia_13
-			}
-		}
-		advisor = {
-			slot = domestic_minister
-			idea_token = CHI_lu_zuofu_domestic_minister
-			on_add = {
-				set_temp_variable = { character = token:CHI_lu_zuofu}
-				set_temp_variable = { slot = token:domestic_minister}
-
-				domestic_minister_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_lu_zuofu}
-				set_temp_variable = { slot = token:domestic_minister}
-
-				domestic_minister_on_remove_effect = yes
-			} 
-			
-			traits = {
-				industrial_planner
-			}
-		}
-	}
-	##
-	CHI_qian_changzhao = {
-		name = CHI_qian_changzhao
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor_asia_14
-			}
-		}
-		advisor = {
-			slot = domestic_minister
-			idea_token = CHI_qian_changzhao_domestic_minister
-			on_add = {
-				set_temp_variable = { character = token:CHI_qian_changzhao}
-				set_temp_variable = { slot = token:domestic_minister}
-
-				domestic_minister_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_qian_changzhao}
-				set_temp_variable = { slot = token:domestic_minister}
-
-				domestic_minister_on_remove_effect = yes
-			} 
-			
-			traits = {
-				domestminster_industry
-			}
-		}
-	}
-	##
-	CHI_chen_lifu = {
-		name = CHI_chen_lifu
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor_asia_6
-			}
-		}
-		advisor = {
-			slot = domestic_minister
-			idea_token = CHI_chen_lifu_domestic_minister
-			on_add = {
-				set_temp_variable = { character = token:CHI_chen_lifu}
-				set_temp_variable = { slot = token:domestic_minister}
-
-				domestic_minister_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_chen_lifu}
-				set_temp_variable = { slot = token:domestic_minister}
-
-				domestic_minister_on_remove_effect = yes
-			} 
-			
-			traits = { 
-				mining_bonus
-				domestminster_education
-			}
-		}
-	}
-	##
-	CHI_xie_juezai = {
-		name = CHI_xie_juezai
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor_asia_1
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = CHI_xie_juezai_political_advisor
-			on_add = {
-				set_temp_variable = { character = token:CHI_xie_juezai}
-				set_temp_variable = { slot = token:political_advisor}
-
-				political_advisor_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_xie_juezai}
-				set_temp_variable = { slot = token:political_advisor}
-
-				political_advisor_on_remove_effect = yes
-			} 
-			
-			traits = {
-				righthand_man
-			}
-		}
-	}
-	##
-	CHI_chiang_ching_kuo = {
-		name = CHI_chiang_ching_kuo
-		portraits = {
-			army = {
-				small = GFX_idea_chi_chiang_ching_kuo
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = CHI_chiang_ching_kuo_political_advisor
-			on_add = {
-				set_temp_variable = { character = token:CHI_chiang_ching_kuo}
-				set_temp_variable = { slot = token:political_advisor}
-
-				political_advisor_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_chiang_ching_kuo}
-				set_temp_variable = { slot = token:political_advisor}
-
-				political_advisor_on_remove_effect = yes
-			} 
-			available = {
-				if = {
-					limit = {
-						has_government = neutrality
-					}
-					has_country_leader = { ruling_only = yes character = CHI_chiang_kaishek }
-				}
-			}
-			
-			traits = {
-				silent_workhorse
-			}
-		}
-	}
-	#宋美龄#
-	CHI_soong_mei_ling = {
-		name = CHI_soong_mei_ling
-		gender = female
-		portraits = {
-			army = {
-				small = GFX_idea_soong_mei_ling
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = CHI_soong_mei_ling_political_advisor
-			on_add = {
-				set_temp_variable = { character = token:CHI_soong_mei_ling}
-				set_temp_variable = { slot = token:political_advisor}
-
-				political_advisor_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_soong_mei_ling}
-				set_temp_variable = { slot = token:political_advisor}
-
-				political_advisor_on_remove_effect = yes
-			} 
-			available = {
-				has_country_leader = { ruling_only = yes character = CHI_chiang_kaishek }
-			}
-			allowed = {
-				has_dlc = "Waking the Tiger"
-			}
-			traits = { 
-				neutral
-				first_lady 
-			}
-		}
-	}
-	#Nationalist
-	#李宗仁#
-	CHI_li_zongren = {
-		name = CHI_li_zongren
-		portraits = {
-			army = {
-				small = gfx/interface/ideas/idea_generic_army_asia_3.dds
-			}
-		}
-		advisor = {
-			slot = army_chief
-			idea_token = CHI_li_zongren_army_chief
-			on_add = {
-				set_temp_variable = { character = token:CHI_li_zongren}
-				set_temp_variable = { slot = token:army_chief}
-
-				army_chief_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_li_zongren}
-				set_temp_variable = { slot = token:army_chief}
-
-				army_chief_on_remove_effect = yes
-			} 
-			
-			traits = { 
-				neutral
-				army_chief_defensive_3 
-
-			}
-		}
-	}
-	#何应钦#
-	CHI_he_yingqin = {
-		name = CHI_he_yingqin
-		portraits = {
-			army = {
-				small = gfx/interface/ideas/idea_generic_army_asia_1.dds
-			}
-			army = {
-				large = "gfx/leaders/CHI/portrait_chi_he_yingqin.dds"
-			}
-		}
-		corps_commander = {
-			traits = { }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id = -1
-		}	
-		advisor = {
-			slot = army_chief
-			idea_token = CHI_he_yingqin_army_chief
-			on_add = {
-				set_temp_variable = { character = token:CHI_he_yingqin}
-				set_temp_variable = { slot = token:army_chief}
-
-				army_chief_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_he_yingqin}
-				set_temp_variable = { slot = token:army_chief}
-
-				army_chief_on_remove_effect = yes
-			} 
-			
-			traits = {
-				army_chief_maneuver_2
-
-			}
-		}
-	}
-	#army_aviation_doctrine
-	#Clique
-	#王叔铭#
-	CHI_wang_shuming = {
-		name = CHI_wang_shuming
-		portraits = {
-			army = {
-				small = "gfx/interface/ideas/CHI/idea_generic_Wang_Shuming.dds"
-			}
-		}
-		advisor = {
-			slot = air_chief
-			idea_token = CHI_wang_shuming_air_chief
-			on_add = {
-				set_temp_variable = { character = token:CHI_wang_shuming}
-				set_temp_variable = { slot = token:air_chief}
-
-				air_chief_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_wang_shuming}
-				set_temp_variable = { slot = token:air_chief}
-
-				air_chief_on_remove_effect = yes
-			} 
-			
-			traits = {
-				neutral
-				air_chief_ground_support_2
-
-			}
-		}
-	}
-	#周至柔#
-	CHI_zhou_zhirou = {
-		name = CHI_zhou_zhirou
-		portraits = {
-			army = {
-				small = gfx/interface/ideas/CHI/idea_generic_Zhou_Zhirou.dds
-			}
-		}
-		advisor = {
-			slot = air_chief
-			idea_token = CHI_zhou_zhirou_air_chief
-			on_add = {
-				set_temp_variable = { character = token:CHI_zhou_zhirou}
-				set_temp_variable = { slot = token:air_chief}
-
-				air_chief_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_zhou_zhirou}
-				set_temp_variable = { slot = token:air_chief}
-
-				air_chief_on_remove_effect = yes
-			} 
-			
-			traits = {
-				air_chief_old_guard
-
-			}
-		}
-	}
-	#Nationalist
-    #薄一波#	
 	CHI_bo_yibo = {
 		name = CHI_bo_yibo
 		portraits = {
@@ -1897,12 +1857,12 @@ characters = {
 			ledger = army
 		}
 	}
-	#方子翼#
+	#方子翼
 	CHI_fang_zeyi = { 
 		name = CHI_fang_zeyi
 		portraits = {
 			army = {
-				small = "gfx/interface/ideas/CHI/idea_generic_Fang_Zeyi.dds"
+				small = gfx/interface/ideas/CHI/idea_generic_Fang_Zeyi.dds
 			}
 		}
 		advisor = {
@@ -2002,7 +1962,7 @@ characters = {
 			ledger = air
 		}
 	}
-	#萧毅肃#
+	#萧毅肃
 	CHI_xiao_yisu = {
 		name = CHI_xiao_yisu
 		portraits = {
@@ -2036,13 +1996,15 @@ characters = {
 			ledger = army
 		}
 	}
-	#陈诚#
+	#陈诚
 	CHI_chen_cheng = {
 		name = CHI_chen_cheng
 		portraits = {
 			army = {
-				small = gfx/interface/ideas/CHI/idea_generic_Chen_Cheng.dds
-				large = "gfx/leaders/CHI/Portrait_chi_chen_cheng.dds"
+				large = gfx/leaders/CHI/Portrait_chi_chen_cheng.dds
+			}
+			army = {
+				small = gfx/interface/ideas/idea_generic_army_asia_3.dds
 			}
 		}
 		advisor = {
@@ -2071,13 +2033,49 @@ characters = {
 			ledger = army
 		}
 		field_marshal={
-			traits = { armor_officer }
-			skill = 1
-			attack_skill = 1
+			traits = { trait_engineer trait_engineer_FM_III fortress_buster_FM_III }
+			skill = 2
+			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = -1
+		}
+	}
+	CHI_yu_hanmou = {
+		name = CHI_yu_hanmou
+		portraits = {
+			army = {
+				small = gfx/interface/ideas/idea_generic_army_asia_1.dds
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CHI_yu_hanmou_high_command
+			on_add = {
+				set_temp_variable = { character = token:CHI_yu_hanmou}
+				set_temp_variable = { slot = token:high_command}
+
+				high_command_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_yu_hanmou}
+				set_temp_variable = { slot = token:high_command}
+
+				high_command_on_remove_effect = yes
+			} 
+			allowed = {
+				original_tag = CHI
+			}
+			available = {
+				#has_country_flag = can_high_command_army
+			}
+			
+			traits = {
+				army_logistics_2
+
+			}
+			ledger = army
 		}
 	}
 	CHI_wai_chingkuo = {
@@ -2344,6 +2342,74 @@ characters = {
 			}
 		}
 	}
+	#桂永清
+	CHI_gui_yongqing = {
+		name = CHI_gui_yongqing
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/CHI/idea_generic_Gui_Yongqing.dds"
+			}
+			army = {
+				large = "gfx/leaders/CHI/Portrait_CHI_gui_yongqing.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = CHI_gui_yongqing_navy_chief
+			on_add = {
+				set_temp_variable = { character = token:CHI_gui_yongqing}
+				set_temp_variable = { slot = token:navy_chief}
+
+				navy_chief_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:CHI_gui_yongqing}
+				set_temp_variable = { slot = token:navy_chief}
+
+				navy_chief_on_remove_effect = yes
+			} 
+			
+			traits = {
+				navy_chief_commerce_raiding_1
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = CHI_gui_yongqing_high_command
+			on_add = {
+				set_temp_variable = { character = token:CHI_gui_yongqing}
+				set_temp_variable = { slot = token:high_command}
+
+				high_command_on_add_effect = yes
+			}
+			on_remove = {
+				set_temp_variable = { character = token:CHI_gui_yongqing}
+				set_temp_variable = { slot = token:high_command}
+
+				high_command_on_remove_effect = yes
+			} 
+			allowed = {
+				original_tag = CHI
+			}
+			available = {
+				#has_country_flag = can_high_command_navy
+				
+			}
+			traits = {
+				navy_chief_submarine_raider_doctrine
+			}
+			ledger = navy
+		}
+		navy_leader = {
+			traits = { navy_career_officer }
+			skill = 1
+    		attack_skill = 1
+    		defense_skill = 1
+    		maneuvering_skill = 1
+    		coordination_skill = 1
+			legacy_id = -1
+		}
+	}
 	CHI_claire_lee_chennault = {
 		name = CHI_claire_lee_chennault
 		portraits = {
@@ -2412,6 +2478,62 @@ characters = {
 			}
 			ledger = air
 		}
+	}
+	
+  #####                                                              
+ #     #   ####   #  ######  #    #  #####  #   ####   #####   ####  
+ #        #    #  #  #       ##   #    #    #  #         #    #      
+  #####   #       #  #####   # #  #    #    #   ####     #     ####  
+       #  #       #  #       #  # #    #    #       #    #         # 
+ #     #  #    #  #  #       #   ##    #    #  #    #    #    #    # 
+  #####    ####   #  ######  #    #    #    #   ####     #     ####  
+
+
+	CHI_wang_ganchang = {
+		name = CHI_wang_ganchang
+		portraits = {
+			army = {
+				large = GFX_portrait_CHI_wang_ganchang
+			}
+		}
+
+		scientist = {
+			traits = { scientist_trait_nuclear_specialist }
+			skills = {
+				specialization_nuclear = 2
+			}
+		}
+	}
+	#王助（波音之父）
+	CHI_wong_tsu = {
+		name = CHI_wong_tsu
+		portraits = {
+			army = {
+				large = GFX_portrait_CHI_wong_tsu
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_aircraft_specialist }
+			skills = {
+				specialization_air = 2
+			}
+		}
+	}
+	#徐庭瑶（装甲兵之父）
+	CHI_xu_tingyao = {
+		name = CHI_xu_tingyao
+		portraits = {
+			army = {
+				large = GFX_portrait_CHI_xu_tingyao
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_armored_specialist }
+			skills = {
+				specialization_land = 2
+			}
+		}
+		
 	}
 }
 ### EOF ###

@@ -317,35 +317,41 @@ recruit_character = CHI_wang_ganchang
 activate_advisor = CHI_du_yuming_army_chief
 activate_advisor = CHI_falkenhausen_theorist
 
-#↓↓↓新增将领↓↓↓
-recruit_character = CHI_sa_zhenbing
-recruit_character = CHI_tang_enbo
-recruit_character = CHI_qiu_qingquan
-recruit_character = CHI_jiang_weiguo
-recruit_character = CHI_liao_yaoxiang
-recruit_character = CHI_zhang_lingfu
-recruit_character = CHI_zheng_dongguo
-recruit_character = CHI_liu_zhi
-recruit_character = CHI_ma_zhanshan
-recruit_character = CHI_zhang_zhizhong
-recruit_character = CHI_song_xilian
-recruit_character = CHI_huang_baitao
-recruit_character = CHI_zhu_peide
-recruit_character = CHI_cai_tingkai
-recruit_character = CHI_sun_yuanliang
-recruit_character = CHI_li_yannian
-recruit_character = CHI_guan_linzheng
-recruit_character = CHI_hu_lian
-recruit_character = CHI_fang_xianjue
-recruit_character = CHI_luo_zhuoying
-recruit_character = CHI_li_mi
-recruit_character = CHI_jiang_dingwen
-recruit_character = CHI_qian_dajun
-recruit_character = CHI_xu_tingyao
-recruit_character = CHI_xiong_shihui
-recruit_character = CHI_li_yutang
-recruit_character = CHI_fan_hanjie
-recruit_character = CHI_chan_chak
+#↓↓↓新增陆军将领↓↓↓
+recruit_character = CHI_tang_enbo		#汤恩伯
+recruit_character = CHI_qiu_qingquan	#邱清泉
+recruit_character = CHI_jiang_weiguo	#蒋纬国
+recruit_character = CHI_liao_yaoxiang	#廖耀湘
+recruit_character = CHI_zhang_lingfu	#张灵甫
+recruit_character = CHI_zheng_dongguo	#郑洞国
+recruit_character = CHI_liu_zhi			#刘峙
+recruit_character = CHI_ma_zhanshan		#马占山
+recruit_character = CHI_zhang_zhizhong	#张治中
+recruit_character = CHI_song_xilian		#宋希濂
+recruit_character = CHI_huang_baitao	#黄百韬
+recruit_character = CHI_zhu_peide		#朱培德
+recruit_character = CHI_cai_tingkai		#蔡廷锴
+recruit_character = CHI_sun_yuanliang	#孙元良
+recruit_character = CHI_li_yannian		#李延年
+recruit_character = CHI_guan_linzheng	#关麟征
+recruit_character = CHI_hu_lian			#胡琏
+recruit_character = CHI_fang_xianjue	#方先觉
+recruit_character = CHI_luo_zhuoying	#罗卓英
+recruit_character = CHI_li_mi			#李弥
+recruit_character = CHI_jiang_dingwen	#蒋鼎文
+recruit_character = CHI_qian_dajun		#钱大钧
+recruit_character = CHI_xu_tingyao		#徐庭瑶
+recruit_character = CHI_xiong_shihui	#熊式辉
+recruit_character = CHI_li_yutang		#李玉堂
+recruit_character = CHI_fan_hanjie		#范汉杰
+recruit_character = CHI_huang_wei		#黄维
+recruit_character = CHI_yang_botao		#杨伯涛
+#↓↓↓新增海军将领↓↓↓
+recruit_character = CHI_sa_zhenbing		#萨镇冰
+recruit_character = CHI_chan_chak		#桂永清
+#↓↓↓新增科学家↓↓↓
+recruit_character = CHI_wong_tsu		#王助
+recruit_character = CHI_xu_tingyao		#徐庭瑶
 ########################################################################
 ## BICE variants
 ########################################################################
