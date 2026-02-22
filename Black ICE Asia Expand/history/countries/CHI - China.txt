@@ -351,7 +351,6 @@ recruit_character = CHI_sa_zhenbing		#萨镇冰
 recruit_character = CHI_chan_chak		#桂永清
 #↓↓↓新增科学家↓↓↓
 recruit_character = CHI_wong_tsu		#王助
-recruit_character = CHI_xu_tingyao		#徐庭瑶
 ########################################################################
 ## BICE variants
 ########################################################################

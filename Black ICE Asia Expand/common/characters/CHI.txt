@@ -45,7 +45,7 @@ characters={
 			}
 		}
 		field_marshal = {
-			traits = { politically_connected logistics_wizard_FM_III }
+			traits = { politically_connected logistics_wizard_CC }
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -802,7 +802,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	#徐庭瑶
+	#徐庭瑶（装甲兵之父）
 	CHI_xu_tingyao={
 		name=CHI_xu_tingyao
 		portraits={
@@ -818,6 +818,12 @@ characters={
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=-1
+		}
+		scientist = {
+			traits = { scientist_trait_armored_specialist }
+			skills = {
+				specialization_land = 2
+			}
 		}
 	}
 	#熊式辉
@@ -1713,8 +1719,8 @@ characters={
 			
 			traits = {
 				neutral
-				navy_chief_decisive_battle_1
 				navy_chief_naval_reformer
+				navy_chief_decisive_battle_1
 			}
 			ledger = navy
 		}
@@ -1741,7 +1747,6 @@ characters={
 			}
 			traits = {
 				navy_chief_naval_aviation_doctrine
-				navy_fleet_logistics_2
 			}
 			ledger = navy
 		}			
@@ -1812,7 +1817,7 @@ characters={
 			}
 		}
         navy_leader={
-			traits={ gentlemanly mine_layer }
+			traits={ mine_layer gentlemanly }
 			skill=1
 			attack_skill=1
 			defense_skill=1
@@ -2033,7 +2038,7 @@ characters={
 			ledger = army
 		}
 		field_marshal={
-			traits = { trait_engineer trait_engineer_FM_III fortress_buster_FM_III }
+			traits = { trait_engineer }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
@@ -2353,26 +2358,6 @@ characters={
 				large = "gfx/leaders/CHI/Portrait_CHI_gui_yongqing.dds"
 			}
 		}
-		advisor = {
-			slot = navy_chief
-			idea_token = CHI_gui_yongqing_navy_chief
-			on_add = {
-				set_temp_variable = { character = token:CHI_gui_yongqing}
-				set_temp_variable = { slot = token:navy_chief}
-
-				navy_chief_on_add_effect = yes
-			} 
-			on_remove = {
-				set_temp_variable = { character = token:CHI_gui_yongqing}
-				set_temp_variable = { slot = token:navy_chief}
-
-				navy_chief_on_remove_effect = yes
-			} 
-			
-			traits = {
-				navy_chief_commerce_raiding_1
-			}
-		}
 		advisor={
 			slot = high_command
 			idea_token = CHI_gui_yongqing_high_command
@@ -2519,21 +2504,6 @@ characters={
 			}
 		}
 	}
-	#徐庭瑶（装甲兵之父）
-	CHI_xu_tingyao = {
-		name = CHI_xu_tingyao
-		portraits = {
-			army = {
-				large = GFX_portrait_CHI_xu_tingyao
-			}
-		}
-		scientist = {
-			traits = { scientist_trait_armored_specialist }
-			skills = {
-				specialization_land = 2
-			}
-		}
-		
-	}
+
 }
 ### EOF ###
