@@ -1,23 +1,44 @@
 ﻿capital = 824 # Nanjing
 
 oob = "CHI_1936"
+history_initialisation = yes
 
 set_research_slots = 2
 
 set_convoys = 75
 
 set_stability = 0.7
-
+set_country_flag = CHI_armor #新增中国国民革命军坦克科技
 set_war_support = 0.5
 set_country_flag = league_member
 set_country_flag = olympic_attendee
 save_global_event_target_as = WTT_current_china_leader
-set_global_flag = KMT_mod_enabled
-set_global_flag = KMT_first_chinese_civil_war
 set_major = yes
 
-set_country_flag = CHI_armor #新增中国国民革命军坦克科技
+add_to_array = { industry_evac = 752 }
+add_to_array = { industry_evac = 801 }
+add_to_array = { industry_evac = 753 }
+add_to_array = { industry_evac = 605 }
+add_to_array = { industry_evac = 800 }
+add_to_array = { industry_evac = 783 }
+add_to_array = { industry_evac = 325 }
+add_to_array = { industry_evac = 747 }
+add_to_array = { industry_evac = 798 }
 
+for_each_scope_loop = {
+	array = industry_evac
+	
+	set_state_flag = CHI_industry_evac_target
+}
+
+set_variable = { CHI.KMT_the_big_rear_concept = 0.05 }
+
+set_variable = { CHI.KMT_weak_army = -0.7 }
+set_variable = { CHI.KMT_weak_army_xp = -0.7 }
+set_variable = { CHI.KMT_weak_army_population = -0.25 }
+add_dynamic_modifier = {
+	modifier = KMT_weak_army
+}
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -45,7 +66,6 @@ set_technology = {
 	
 	building_tech = 1
 	tech_basic_train = 1
-	chinese_units = 1
 	##################### infantry ###############
 	infantry_weapons = 1
 	tech_infantry_uniforms = 1
@@ -73,9 +93,9 @@ set_technology = {
 	############## aircraft ##############
 	early_fighter = 1
 	early_bomber = 1
-	generic_fighter = 1
-	generic_bomber = 1
-	generic_strategic_bomber = 1
+	#generic_fighter = 1
+	#generic_bomber = 1
+	#generic_strategic_bomber = 1
 	early_CAS = 1
 	##################### WW1 doctrines #################
 	ww1_infantry = 1
@@ -114,6 +134,7 @@ set_technology = {
 	nrm_submarine_tactics_early = 1
 	nrm_submarine_raiding = 1
 }
+unlock_subunit = irregulars_unit
 
 set_country_flag = neutrality_idea
 
@@ -228,14 +249,13 @@ add_ideas = {
 	public_iliteracy
 	incompetent_industry_real
 	incompetent_industry_real_navy
-	KMT_weak_army
+	#KMT_weak_army
 	KMT_corrupted_government
-	cu_cg_warlords_all
-	cg_true_low
+	CHI_warlords_12
 	
 	CHI_army_corruption_1
 	free_trade
-	subsistence_diet
+	subsistence_diet_CHI
 }
 
 set_politics = {
