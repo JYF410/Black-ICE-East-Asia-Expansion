@@ -6,7 +6,7 @@ history_initialisation = yes
 set_research_slots = 2
 
 set_convoys = 75
-
+set_country_flag ＝ USA_air #临时增加美国飞机科技
 set_stability = 0.7
 set_country_flag = CHI_armor #新增中国国民革命军坦克科技
 set_war_support = 0.5
